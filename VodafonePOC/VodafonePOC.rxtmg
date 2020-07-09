@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="VodafonePOC"
+      id="a3a15121-32ae-4e76-a4ff-2b74064c4d54"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="VodafonePOC"
+      id="a3a15121-32ae-4e76-a4ff-2b74064c4d54"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

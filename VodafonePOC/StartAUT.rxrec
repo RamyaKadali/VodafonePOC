@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="edge"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://ext-735-opco.caas.edgevis.io:9443/#/login
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

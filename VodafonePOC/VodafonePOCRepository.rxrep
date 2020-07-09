@@ -1,0 +1,336 @@
+﻿<repository
+id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+name="VodafonePOCRepository">
+	<codegen
+	classname="VodafonePOCRepository"
+	namespace="VodafonePOC">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b9a60ef8-a539-4715-a337-85a448c239ae"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="636aa4c1-fef4-472d-a9f5-1eded59f071e"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,headertag"
+			capname="headertag"
+			id="23e12b43-add1-41ac-ba15-4286b8342e8c"
+			name="FullWidthNgScope"
+			refimgid="7931a013-9cf9-423b-ba52-71c6ec5c0c96"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//body[#'top']/header"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//body[#'top']/header
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="90e78f95-d8dd-4d16-ab6c-0f5d9d77c28b"
+			name="Password"
+			refimgid="7e80564f-d52a-4d96-b874-32f951b6a1ed"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="58eaa606-0c7b-4cf1-a77b-6e8179645aac"
+			name="SCHEDULE"
+			refimgid="0d5e1233-8f75-4c2c-80f8-136af5f2aa64"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/div[1]/p/select[@name='SCHEDULE']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div//select[@name='SCHEDULE']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="59e41956-c6ea-4a0c-8f1f-c60b14bd26c8"
+			name="PickYourAlarmSettings"
+			refimgid="774dee81-4f00-4f7f-a5c8-9c98a7db38b7"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/h1[@innertext='Pick your alarm settings']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/h1[@innertext='Pick your alarm settings']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="653dc6ae-5054-4c3b-8dd7-56323e2d08f2"
+			name="Submit"
+			refimgid="d94aa8a8-0b5f-4715-9777-91f7750b097a"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c09551df-3b95-40e6-aa88-dd8bae88aec2"
+			name="Account"
+			refimgid="46bd3dd2-5d4c-4762-95c2-428bfbe23998"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[3]"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[3]
+			</item>
+			<folder
+			capname="divtag"
+			id="373057e6-3382-4e46-815b-737e7abdbb6b"
+			isrooted="True"
+			name="ContentPage"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="3aafab49-fb6a-4ed7-8831-7fcb38ebc523"
+				name="ChooseDefaultForThisDomain"
+				refimgid="13a00b0d-a20f-44e8-8934-5ae1c2e25864"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/aside/ul/li[1]/a[@innertext>'Choose default for this d']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/aside/ul/?/?/a[@innertext&gt;'Choose default for this d']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="83065ac3-620b-48c5-a7e0-909a68083265"
+				name="Test"
+				refimgid="14274e54-b57c-4e7d-91c1-2b87bd958f1d"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/ul[1]/li[1]/a[@innertext='Test ']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/ul[1]/li[1]/a[@innertext='Test ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="078447a5-ed66-46f8-aa3e-51d4bde59158"
+				name="EncoderSettings"
+				refimgid="e2e4941d-9aa6-4b27-a0b3-4f816f1bdc3e"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/ul[2]/li[2]/a[@innertext='Encoder settings']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/ul[2]/?/?/a[@innertext='Encoder settings']
+				</item>
+				<basepath>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b4031387-8833-4efa-ade4-97b0c7f4b3ad"
+			name="Username"
+			refimgid="4fd9eba8-e63b-4c39-8cef-14d7f2bbbaab"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'username']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'username']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e46edd80-b215-4542-bb5a-fa434cc8c32f"
+			name="Logout"
+			refimgid="090e62de-f310-44e8-a6dd-f00c2f27b43e"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/ul/li[3]/a[@innertext='Logout']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']//a[@innertext='Logout']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a2b9049e-c483-401a-ba9f-76a84767f0d6"
+			name="Account1"
+			refimgid="0652f9c2-cc65-4eab-a53b-e2a74d271dcb"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]
+			</item>
+			<basepath>
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="763b2766-dcca-4ff9-9878-dc48c2a3f4fe"
+		isrooted="True"
+		name="MicrosoftEdge"
+		refpath="/winapp[@packagename='Microsoft.MicrosoftEdge']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="30c0962c-9ff4-48d4-b562-78ecf6f7d11b"
+			name="SearchOrEnterWebAddress"
+			refimgid="7203a13b-3968-4593-9b81-3fa21ffb4468"
+			refpath="/winapp[@packagename='Microsoft.MicrosoftEdge' and @appid='MicrosoftEdge' and @name='Microsoft Edge']/text/text[@name>'Search or enter web addre']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.MicrosoftEdge']/?/?/text[@name&gt;'Search or enter web addre']
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="4e49b5cf-1978-4d31-88e3-601ad15bb00d"
+			name="SomeText"
+			refimgid="d6dc6f08-4aa3-412a-b24a-0243516d923b"
+			refpath="/winapp[@packagename='Microsoft.MicrosoftEdge' and @appid='MicrosoftEdge' and @name='Microsoft Edge']/list[@automationid='TabsList']/listitem[@name>'Login - Vodafone Business']/container/button[@automationid='AllInputCloseButton']/text[@name='']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.MicrosoftEdge']/list[@automationid='TabsList']//button[@automationid='AllInputCloseButton']/text[@name='']
+			</item>
+			<basepath>
+				/winapp[@packagename='Microsoft.MicrosoftEdge']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADPSURBVDhPY2CouP6fIoxVEIgXnP3wHwY+fP/7
+v2DzS6zqMAw4cO8rVBt24DDrIYp6FAMuPPsBVYYfoBgCYwQsegKV/v+/Yc/r/wqdd+CKDCbeh8og
+AEwObgAIgFwAYj94/+u/QMMthCIgRg4TEICHCbICEA0KMBCAicMwyNnIAKQOLAciQE4E0SBnkwLg
+BsAwoRhABxgGkArwGoAsjhcjcyYceQfVjhRIaBhvQgJhbAA9bFD0oHCAGFuiQQcoelA4UAxKRLgA
+htdQOCTj6/8B4rQEjOBNS80AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,accessible"
+		capname="container"
+		id="de3b3b23-69e2-4e5a-92fe-7fd1894fa041"
+		isrooted="True"
+		name="Dropdown"
+		refpath="/container[@caption='dropdown']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="a333b0d6-92ea-41fa-9477-0e56def63af8"
+			name="Client"
+			refimgid="1c85cb9d-b724-41e0-911c-21d698690807"
+			refpath="/container/listitem"
+			searchtimeout="30000ms">
+				/container[@caption='dropdown']/listitem
+			</item>
+			<basepath>
+				/container[@caption='dropdown']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAABhUlEQVQ4T8WQvUsCYRzHb++F/oSGiMiiV4qWakiiqWyJGiK0cmxw
+kUhtMHqzTuWC0KKh2ZBqsTSHlt6oNkENBF+OoJZCKlO/PY/PGaIXCQ19jw/3e7787sPdcX/OkCOC
+LiGOVruIZqsIhS2BJj6BFnuCnBOoJ3OdJQYFL6LR+ohOWxS9y7cQ/FHkBNVaL2qmfajUeFFF7nno
+uULNoHOD/gK1uit0zx1hdGwBeuEALpcLnPk4gkAkjrtwDPfheAGF5xiug1HcEC5DInzBJ0zMO8Hz
+PLid82fkky26fupo+me3mGDbL0pVqgw+c1DRgNbOBI6zOClp8gvFD5WSE8zw0id4o6SkkV8uhb5B
+GkrNBhPsnkZISSO3LAcVZKBUrzHBnueBlDRyy3JIgqkVJtj3hEhJ/3ZGIv0LdCeLwcklJnAeBvCa
+TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
+7XYzwT+G474AUqqnq7MiKz0AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="3ff4ab92-369d-4ee9-a944-6c8be07d020c"
+		isrooted="True"
+		name="CharacterEncodingRStudioSupport"
+		refpath="/dom[@domain='support.rstudio.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="158004ef-e852-4bbc-a50f-d8d82abb8705"
+			name="CommunityEnabled"
+			refimgid="b829fd23-8d8d-4d99-9a78-3cffc5fb5b99"
+			refpath="/dom[@domain='support.rstudio.com']/body"
+			searchtimeout="30000ms">
+				/dom[@domain='support.rstudio.com']/body
+			</item>
+			<folder
+			addcaps="unknown,webelement,maintag"
+			capname="maintag"
+			id="22185695-afd3-4091-874d-ae9fa0d5ca60"
+			isrooted="True"
+			name="SomeMainTag"
+			refpath="/dom[@domain='support.rstudio.com']/body/main"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="2819a39d-14d5-4e9c-9e7b-8f810d0a9a26"
+				name="IfYouDontSetADefaultEncodingFile"
+				refimgid="b46166d8-15fc-4768-a0df-8f4b8e1a8d2f"
+				refpath="/dom[@domain='support.rstudio.com']/body/main/div/article/div[1]/p[@innertext>'If you don''t set a default']"
+				searchtimeout="30000ms">
+					/dom[@domain='support.rstudio.com']/?/?/main/?/?/article/?/?/p[@innertext&gt;'If you don''t set a default']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="adbd7a80-cb69-4357-9c1f-3c3101c12392"
+				name="IfYouFrequentlyUseTheCharacterSet"
+				refimgid="d9195361-8671-4cf7-b894-af98a902ffd7"
+				refpath="/dom[@domain='support.rstudio.com']/body/main/div/article/div[1]/p[@innertext>'If you frequently use the']"
+				searchtimeout="30000ms">
+					/dom[@domain='support.rstudio.com']/?/?/main/?/?/article/?/?/p[@innertext&gt;'If you frequently use the']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="2d9a0b5c-bac9-44e0-ae84-c2becd94695a"
+				name="ArticleBody"
+				refimgid="055257bd-5a35-46b6-90f8-12ba3751da59"
+				refpath="/dom[@domain='support.rstudio.com']/body/main/div/article/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='support.rstudio.com']/?/?/main/?/?/article/div[1]
+				</item>
+				<basepath>
+					/dom[@domain='support.rstudio.com']/?/?/main
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='support.rstudio.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
