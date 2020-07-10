@@ -18,7 +18,7 @@ name="VodafonePOCRepository">
 		id="b9a60ef8-a539-4715-a337-85a448c239ae"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="636aa4c1-fef4-472d-a9f5-1eded59f071e"
+		refimgid="d9ff556d-d28f-48a7-afea-fb1deb3752c7"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -118,6 +118,26 @@ name="VodafonePOCRepository">
 				searchtimeout="30000ms">
 					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/ul[2]/?/?/a[@innertext='Encoder settings']
 				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="2707cfc6-deab-46a3-b4e2-5aa84bb938b2"
+				name="Name"
+				refimgid="87768916-f0b3-41da-8755-a702619d737b"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/?/?/a/span[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="e3ce8cc0-1be1-4d9f-b827-f36910b550ab"
+				name="WeeklySchedules"
+				refimgid="4e84be64-5861-46b9-875f-535e51421005"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/span[@innertext='Weekly schedules']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul//span[@innertext='Weekly schedules']
+				</item>
 				<basepath>
 					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div
 				</basepath>
@@ -151,6 +171,153 @@ name="VodafonePOCRepository">
 			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]"
 			searchtimeout="30000ms">
 				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a1a2654c-6152-49ff-9e74-ce7b54aebf8b"
+			name="Test"
+			refimgid="e3d44469-77ea-4aaf-bf7d-b448813892a3"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[14]/span/span[1]/span[@innertext='test ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[14]//span[@innertext='test ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bc16c320-b69e-4103-85e9-5476fb896510"
+			name="FindOutMoreAboutAlarmScheduling"
+			refimgid="7a3fb094-181c-4dfe-b9d8-92406153a728"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/p[@innertext>'This section allows you to']/a[@innertext>'Find out more about alarm']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/p[@innertext&gt;'This section allows you to']/a[@innertext&gt;'Find out more about alarm']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="bf3cc242-118b-4782-a062-cbcf0f0d2894"
+			name="ThursdayWorkingHours"
+			refimgid="94c00beb-17b1-4bed-b994-00bed66d6daa"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/span[@innertext='Thursday Working hours ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[1]//span[@innertext='Thursday Working hours ']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="3ab2d50e-ee87-48fb-8264-e872e0a35672"
+			name="AddDay"
+			refimgid="41b528e2-8db8-45e8-b632-0aa9ca0771c1"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addDay']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addDay']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="77f69edd-8288-4cb8-b705-41129eb5713f"
+			name="NgScope"
+			refimgid="12871160-5fa1-4419-b8bb-cd341b7e9be2"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="20178f26-3265-4566-9a59-7c1d1f53125f"
+			name="AddTimeHours"
+			refimgid="c4309c3b-42e6-47bc-bd3a-c69da3d9642c"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addTimeHours']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addTimeHours']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="ffae465f-840e-49a9-b48d-6ff1d0a1e7eb"
+			name="AddAction"
+			refimgid="7c152a7b-c23d-4dc0-9180-54e405d2b40a"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addAction']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//select[#'addAction']
+			</item>
+			<item
+			addcaps="unknown,webelement,formtag"
+			capname="formtag"
+			id="1316e814-89ac-484e-85d1-ec38c3c1eeda"
+			name="Form"
+			refimgid="589ed1f3-47a5-43f6-82b6-c6f9020567be"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b489380f-8232-408c-aa99-67657f2983dd"
+			name="Delete"
+			refimgid="95cafa53-51b2-4184-8e40-a990afc9d154"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[1]/tbody/tr[3]/td[4]/a[@innertext='Delete']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[1]/tbody/tr[3]/td[4]/a[@innertext='Delete']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="7c6ec7aa-b898-49c5-8b17-8c4c455fb9bf"
+			name="SomeTdTag"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[1]/tbody/tr/td[4]"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[1]/tbody/tr/td[4]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="9b858aea-7460-4efb-bf08-80249436dbfc"
+			name="DeleteSchedule"
+			refimgid="ee20dd11-3439-4cee-b99d-9a1b029881a0"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/p[3]/a[@innertext='Delete schedule']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']//a[@innertext='Delete schedule']
+			</item>
+			<item
+			addcaps="unknown,webelement,bodytag"
+			capname="bodytag"
+			id="e2662629-bfc7-4dec-ac3a-2ee8f34794bd"
+			name="BodyTagTop"
+			refimgid="5da68fb1-a064-4c1e-9e36-7686689fcedc"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//body[#'top']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//body[#'top']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="be6aa740-6b69-4248-8617-a398475fba47"
+			name="AddDay1"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/form/div/table[2]/tbody/tr/td[1]/select[@id='addDay']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//form/div/table[2]/?/?/tr/td[1]/select[@id='addDay']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="63728c1c-ee87-426e-bac4-63d36c1d8c26"
+			name="SomeTdTag1"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/form/div/table[2]/tbody/tr/td[1]"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//form/div/table[2]/?/?/tr/td[1]
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="72ba7444-4873-47bd-97cb-4187b3268126"
+			name="Confirm"
+			refimgid="0d9d983a-5618-45cc-8957-220645ab080f"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'loading']/p[2]/a[@innertext='Confirm']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'loading']/?/?/a[@innertext='Confirm']
 			</item>
 			<basepath>
 				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']
@@ -218,6 +385,7 @@ htdQOCTj6/8B4rQEjOBNS80AAAAASUVORK5CYII=
 		id="de3b3b23-69e2-4e5a-92fe-7fd1894fa041"
 		isrooted="True"
 		name="Dropdown"
+		refimgid="861fb6b1-6188-4a4b-a0e1-698e20b34059"
 		refpath="/container[@caption='dropdown']"
 		searchtimeout="30000ms"
 		usecache="True">
@@ -311,6 +479,44 @@ TOEl+UF4J7xJszz53W+BevEEPeMC2lUWifWCuZS24VV0qDbRN6JjAhpBEGAymWA0GsvCYDDAbDbD
 			</folder>
 			<basepath>
 				/dom[@domain='support.rstudio.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="739c31f1-4f9e-425e-b95d-733894c2348f"
+		isrooted="True"
+		name="Ranorex93GoogleSearch"
+		refpath="/dom[@domain='www.google.co.uk']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,litag"
+			capname="litag"
+			id="ef6c0e90-c33c-4cf7-bab2-e787e8aa4c1f"
+			name="SomeLiTag"
+			refimgid="3436ce6d-cfb9-4e48-a4b3-77a175d15410"
+			refpath="/dom[@domain='www.google.co.uk']//div[#'tads']/div/ol/li/ul/li[2]"
+			searchtimeout="30000ms">
+				/dom[@domain='www.google.co.uk']//div[#'tads']//ul/li[2]
+			</item>
+			<basepath>
+				/dom[@domain='www.google.co.uk']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

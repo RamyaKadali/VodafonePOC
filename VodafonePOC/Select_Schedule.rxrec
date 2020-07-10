@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="50e08b75-2c43-439b-a474-60d69bc4147f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Select_Schedule"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="87;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ae7f2a1c-7ce0-43f4-8986-a844866e96a7"
+		sx="436"
+		sy="572"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bf3cc242-118b-4782-a062-cbcf0f0d2894"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="349,562,151,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						linknamelink ng-binding
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Thursday Working hours&#32;
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						linknamelink ng-binding
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[1]//span[@innertext='Thursday Working hours ']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0c3e543d-ea14-4740-8e9f-5bedf8adfd2d">
+				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
+oooAKKKKACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Select_Schedule.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

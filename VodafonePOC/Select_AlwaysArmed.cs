@@ -24,29 +24,29 @@ namespace VodafonePOC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The LoginModule recording.
+    ///The Select_AlwaysArmed recording.
     /// </summary>
-    [TestModule("85069e36-4973-4324-86db-170665b29ab9", ModuleType.Recording, 1)]
-    public partial class LoginModule : ITestModule
+    [TestModule("2afb5707-78d8-4cfe-85fd-3611bcad5f87", ModuleType.Recording, 1)]
+    public partial class Select_AlwaysArmed : ITestModule
     {
         /// <summary>
         /// Holds an instance of the VodafonePOCRepository repository.
         /// </summary>
         public static VodafonePOCRepository repo = VodafonePOCRepository.Instance;
 
-        static LoginModule instance = new LoginModule();
+        static Select_AlwaysArmed instance = new Select_AlwaysArmed();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public LoginModule()
+        public Select_AlwaysArmed()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static LoginModule Instance
+        public static Select_AlwaysArmed Instance
         {
             get { return instance; }
         }
@@ -79,24 +79,8 @@ namespace VodafonePOC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Username' at 28;17.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Username.Click("28;17");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Kadali' with focus on 'ApplicationUnderTest.Username'.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Username.PressKeys("Kadali");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Password' at 36;17.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Password.Click("36;17");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ven58kRs$' with focus on 'ApplicationUnderTest.Password'.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Password.PressKeys("ven58kRs$");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 91;15.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Submit.Click("91;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'Dropdown.Client' at 69;8.", repo.Dropdown.ClientInfo, new RecordItemIndex(0));
+            repo.Dropdown.Client.DoubleClick("69;8");
             Delay.Milliseconds(0);
             
         }

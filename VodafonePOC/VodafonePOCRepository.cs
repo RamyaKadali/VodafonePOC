@@ -31,6 +31,7 @@ namespace VodafonePOC
         VodafonePOCRepositoryFolders.MicrosoftEdgeAppFolder _microsoftedge;
         VodafonePOCRepositoryFolders.DropdownAppFolder _dropdown;
         VodafonePOCRepositoryFolders.CharacterEncodingRStudioSupportAppFolder _characterencodingrstudiosupport;
+        VodafonePOCRepositoryFolders.Ranorex93GoogleSearchAppFolder _ranorex93googlesearch;
 
         /// <summary>
         /// Gets the singleton class instance representing the VodafonePOCRepository element repository.
@@ -51,6 +52,7 @@ namespace VodafonePOC
             _microsoftedge = new VodafonePOCRepositoryFolders.MicrosoftEdgeAppFolder(this);
             _dropdown = new VodafonePOCRepositoryFolders.DropdownAppFolder(this);
             _characterencodingrstudiosupport = new VodafonePOCRepositoryFolders.CharacterEncodingRStudioSupportAppFolder(this);
+            _ranorex93googlesearch = new VodafonePOCRepositoryFolders.Ranorex93GoogleSearchAppFolder(this);
         }
 
 #region Variables
@@ -104,6 +106,15 @@ namespace VodafonePOC
         {
             get { return _characterencodingrstudiosupport; }
         }
+
+        /// <summary>
+        /// The Ranorex93GoogleSearch folder.
+        /// </summary>
+        [RepositoryFolder("739c31f1-4f9e-425e-b95d-733894c2348f")]
+        public virtual VodafonePOCRepositoryFolders.Ranorex93GoogleSearchAppFolder Ranorex93GoogleSearch
+        {
+            get { return _ranorex93googlesearch; }
+        }
     }
 
     /// <summary>
@@ -128,6 +139,21 @@ namespace VodafonePOC
             RepoItemInfo _usernameInfo;
             RepoItemInfo _logoutInfo;
             RepoItemInfo _account1Info;
+            RepoItemInfo _testInfo;
+            RepoItemInfo _findoutmoreaboutalarmschedulingInfo;
+            RepoItemInfo _thursdayworkinghoursInfo;
+            RepoItemInfo _adddayInfo;
+            RepoItemInfo _ngscopeInfo;
+            RepoItemInfo _addtimehoursInfo;
+            RepoItemInfo _addactionInfo;
+            RepoItemInfo _formInfo;
+            RepoItemInfo _deleteInfo;
+            RepoItemInfo _sometdtagInfo;
+            RepoItemInfo _deletescheduleInfo;
+            RepoItemInfo _bodytagtopInfo;
+            RepoItemInfo _addday1Info;
+            RepoItemInfo _sometdtag1Info;
+            RepoItemInfo _confirmInfo;
 
             /// <summary>
             /// Creates a new ApplicationUnderTest  folder.
@@ -145,6 +171,21 @@ namespace VodafonePOC
                 _usernameInfo = new RepoItemInfo(this, "Username", ".//input[#'username']", 30000, null, "b4031387-8833-4efa-ade4-97b0c7f4b3ad");
                 _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[#'userPanel']//a[@innertext='Logout']", 30000, null, "e46edd80-b215-4542-bb5a-fa434cc8c32f");
                 _account1Info = new RepoItemInfo(this, "Account1", ".//div[#'userPanel']/span[2]", 30000, null, "a2b9049e-c483-401a-ba9f-76a84767f0d6");
+                _testInfo = new RepoItemInfo(this, "Test", ".//section[#'float']//article/ul/li[14]//span[@innertext='test ']", 30000, null, "a1a2654c-6152-49ff-9e74-ce7b54aebf8b");
+                _findoutmoreaboutalarmschedulingInfo = new RepoItemInfo(this, "FindOutMoreAboutAlarmScheduling", ".//section[#'float']//article/p[@innertext>'This section allows you to']/a[@innertext>'Find out more about alarm']", 30000, null, "bc16c320-b69e-4103-85e9-5476fb896510");
+                _thursdayworkinghoursInfo = new RepoItemInfo(this, "ThursdayWorkingHours", ".//section[#'float']//article/ul/li[1]//span[@innertext='Thursday Working hours ']", 30000, null, "bf3cc242-118b-4782-a062-cbcf0f0d2894");
+                _adddayInfo = new RepoItemInfo(this, "AddDay", ".//select[#'addDay']", 30000, null, "3ab2d50e-ee87-48fb-8264-e872e0a35672");
+                _ngscopeInfo = new RepoItemInfo(this, "NgScope", ".//form[#'form']/div", 30000, null, "77f69edd-8288-4cb8-b705-41129eb5713f");
+                _addtimehoursInfo = new RepoItemInfo(this, "AddTimeHours", ".//select[#'addTimeHours']", 30000, null, "20178f26-3265-4566-9a59-7c1d1f53125f");
+                _addactionInfo = new RepoItemInfo(this, "AddAction", ".//select[#'addAction']", 30000, null, "ffae465f-840e-49a9-b48d-6ff1d0a1e7eb");
+                _formInfo = new RepoItemInfo(this, "Form", ".//form[#'form']", 30000, null, "1316e814-89ac-484e-85d1-ec38c3c1eeda");
+                _deleteInfo = new RepoItemInfo(this, "Delete", ".//form[#'form']/div/table[1]/tbody/tr[3]/td[4]/a[@innertext='Delete']", 30000, null, "b489380f-8232-408c-aa99-67657f2983dd");
+                _sometdtagInfo = new RepoItemInfo(this, "SomeTdTag", ".//form[#'form']/div/table[1]/tbody/tr/td[4]", 30000, null, "7c6ec7aa-b898-49c5-8b17-8c4c455fb9bf");
+                _deletescheduleInfo = new RepoItemInfo(this, "DeleteSchedule", ".//form[#'form']//a[@innertext='Delete schedule']", 30000, null, "9b858aea-7460-4efb-bf08-80249436dbfc");
+                _bodytagtopInfo = new RepoItemInfo(this, "BodyTagTop", ".//body[#'top']", 30000, null, "e2662629-bfc7-4dec-ac3a-2ee8f34794bd");
+                _addday1Info = new RepoItemInfo(this, "AddDay1", ".//section[#'float']//form/div/table[2]/?/?/tr/td[1]/select[@id='addDay']", 30000, null, "be6aa740-6b69-4248-8617-a398475fba47");
+                _sometdtag1Info = new RepoItemInfo(this, "SomeTdTag1", ".//section[#'float']//form/div/table[2]/?/?/tr/td[1]", 30000, null, "63728c1c-ee87-426e-bac4-63d36c1d8c26");
+                _confirmInfo = new RepoItemInfo(this, "Confirm", ".//div[#'loading']/?/?/a[@innertext='Confirm']", 30000, null, "72ba7444-4873-47bd-97cb-4187b3268126");
             }
 
             /// <summary>
@@ -388,6 +429,366 @@ namespace VodafonePOC
             }
 
             /// <summary>
+            /// The Test item.
+            /// </summary>
+            [RepositoryItem("a1a2654c-6152-49ff-9e74-ce7b54aebf8b")]
+            public virtual Ranorex.SpanTag Test
+            {
+                get
+                {
+                    return _testInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Test item info.
+            /// </summary>
+            [RepositoryItemInfo("a1a2654c-6152-49ff-9e74-ce7b54aebf8b")]
+            public virtual RepoItemInfo TestInfo
+            {
+                get
+                {
+                    return _testInfo;
+                }
+            }
+
+            /// <summary>
+            /// The FindOutMoreAboutAlarmScheduling item.
+            /// </summary>
+            [RepositoryItem("bc16c320-b69e-4103-85e9-5476fb896510")]
+            public virtual Ranorex.ATag FindOutMoreAboutAlarmScheduling
+            {
+                get
+                {
+                    return _findoutmoreaboutalarmschedulingInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The FindOutMoreAboutAlarmScheduling item info.
+            /// </summary>
+            [RepositoryItemInfo("bc16c320-b69e-4103-85e9-5476fb896510")]
+            public virtual RepoItemInfo FindOutMoreAboutAlarmSchedulingInfo
+            {
+                get
+                {
+                    return _findoutmoreaboutalarmschedulingInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ThursdayWorkingHours item.
+            /// </summary>
+            [RepositoryItem("bf3cc242-118b-4782-a062-cbcf0f0d2894")]
+            public virtual Ranorex.SpanTag ThursdayWorkingHours
+            {
+                get
+                {
+                    return _thursdayworkinghoursInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ThursdayWorkingHours item info.
+            /// </summary>
+            [RepositoryItemInfo("bf3cc242-118b-4782-a062-cbcf0f0d2894")]
+            public virtual RepoItemInfo ThursdayWorkingHoursInfo
+            {
+                get
+                {
+                    return _thursdayworkinghoursInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddDay item.
+            /// </summary>
+            [RepositoryItem("3ab2d50e-ee87-48fb-8264-e872e0a35672")]
+            public virtual Ranorex.SelectTag AddDay
+            {
+                get
+                {
+                    return _adddayInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddDay item info.
+            /// </summary>
+            [RepositoryItemInfo("3ab2d50e-ee87-48fb-8264-e872e0a35672")]
+            public virtual RepoItemInfo AddDayInfo
+            {
+                get
+                {
+                    return _adddayInfo;
+                }
+            }
+
+            /// <summary>
+            /// The NgScope item.
+            /// </summary>
+            [RepositoryItem("77f69edd-8288-4cb8-b705-41129eb5713f")]
+            public virtual Ranorex.DivTag NgScope
+            {
+                get
+                {
+                    return _ngscopeInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The NgScope item info.
+            /// </summary>
+            [RepositoryItemInfo("77f69edd-8288-4cb8-b705-41129eb5713f")]
+            public virtual RepoItemInfo NgScopeInfo
+            {
+                get
+                {
+                    return _ngscopeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddTimeHours item.
+            /// </summary>
+            [RepositoryItem("20178f26-3265-4566-9a59-7c1d1f53125f")]
+            public virtual Ranorex.SelectTag AddTimeHours
+            {
+                get
+                {
+                    return _addtimehoursInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddTimeHours item info.
+            /// </summary>
+            [RepositoryItemInfo("20178f26-3265-4566-9a59-7c1d1f53125f")]
+            public virtual RepoItemInfo AddTimeHoursInfo
+            {
+                get
+                {
+                    return _addtimehoursInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddAction item.
+            /// </summary>
+            [RepositoryItem("ffae465f-840e-49a9-b48d-6ff1d0a1e7eb")]
+            public virtual Ranorex.SelectTag AddAction
+            {
+                get
+                {
+                    return _addactionInfo.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddAction item info.
+            /// </summary>
+            [RepositoryItemInfo("ffae465f-840e-49a9-b48d-6ff1d0a1e7eb")]
+            public virtual RepoItemInfo AddActionInfo
+            {
+                get
+                {
+                    return _addactionInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Form item.
+            /// </summary>
+            [RepositoryItem("1316e814-89ac-484e-85d1-ec38c3c1eeda")]
+            public virtual Ranorex.FormTag Form
+            {
+                get
+                {
+                    return _formInfo.CreateAdapter<Ranorex.FormTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Form item info.
+            /// </summary>
+            [RepositoryItemInfo("1316e814-89ac-484e-85d1-ec38c3c1eeda")]
+            public virtual RepoItemInfo FormInfo
+            {
+                get
+                {
+                    return _formInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Delete item.
+            /// </summary>
+            [RepositoryItem("b489380f-8232-408c-aa99-67657f2983dd")]
+            public virtual Ranorex.ATag Delete
+            {
+                get
+                {
+                    return _deleteInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Delete item info.
+            /// </summary>
+            [RepositoryItemInfo("b489380f-8232-408c-aa99-67657f2983dd")]
+            public virtual RepoItemInfo DeleteInfo
+            {
+                get
+                {
+                    return _deleteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag item.
+            /// </summary>
+            [RepositoryItem("7c6ec7aa-b898-49c5-8b17-8c4c455fb9bf")]
+            public virtual Ranorex.TdTag SomeTdTag
+            {
+                get
+                {
+                    return _sometdtagInfo.CreateAdapter<Ranorex.TdTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag item info.
+            /// </summary>
+            [RepositoryItemInfo("7c6ec7aa-b898-49c5-8b17-8c4c455fb9bf")]
+            public virtual RepoItemInfo SomeTdTagInfo
+            {
+                get
+                {
+                    return _sometdtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DeleteSchedule item.
+            /// </summary>
+            [RepositoryItem("9b858aea-7460-4efb-bf08-80249436dbfc")]
+            public virtual Ranorex.ATag DeleteSchedule
+            {
+                get
+                {
+                    return _deletescheduleInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeleteSchedule item info.
+            /// </summary>
+            [RepositoryItemInfo("9b858aea-7460-4efb-bf08-80249436dbfc")]
+            public virtual RepoItemInfo DeleteScheduleInfo
+            {
+                get
+                {
+                    return _deletescheduleInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BodyTagTop item.
+            /// </summary>
+            [RepositoryItem("e2662629-bfc7-4dec-ac3a-2ee8f34794bd")]
+            public virtual Ranorex.BodyTag BodyTagTop
+            {
+                get
+                {
+                    return _bodytagtopInfo.CreateAdapter<Ranorex.BodyTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BodyTagTop item info.
+            /// </summary>
+            [RepositoryItemInfo("e2662629-bfc7-4dec-ac3a-2ee8f34794bd")]
+            public virtual RepoItemInfo BodyTagTopInfo
+            {
+                get
+                {
+                    return _bodytagtopInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddDay1 item.
+            /// </summary>
+            [RepositoryItem("be6aa740-6b69-4248-8617-a398475fba47")]
+            public virtual Ranorex.SelectTag AddDay1
+            {
+                get
+                {
+                    return _addday1Info.CreateAdapter<Ranorex.SelectTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddDay1 item info.
+            /// </summary>
+            [RepositoryItemInfo("be6aa740-6b69-4248-8617-a398475fba47")]
+            public virtual RepoItemInfo AddDay1Info
+            {
+                get
+                {
+                    return _addday1Info;
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag1 item.
+            /// </summary>
+            [RepositoryItem("63728c1c-ee87-426e-bac4-63d36c1d8c26")]
+            public virtual Ranorex.TdTag SomeTdTag1
+            {
+                get
+                {
+                    return _sometdtag1Info.CreateAdapter<Ranorex.TdTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeTdTag1 item info.
+            /// </summary>
+            [RepositoryItemInfo("63728c1c-ee87-426e-bac4-63d36c1d8c26")]
+            public virtual RepoItemInfo SomeTdTag1Info
+            {
+                get
+                {
+                    return _sometdtag1Info;
+                }
+            }
+
+            /// <summary>
+            /// The Confirm item.
+            /// </summary>
+            [RepositoryItem("72ba7444-4873-47bd-97cb-4187b3268126")]
+            public virtual Ranorex.ATag Confirm
+            {
+                get
+                {
+                    return _confirmInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Confirm item info.
+            /// </summary>
+            [RepositoryItemInfo("72ba7444-4873-47bd-97cb-4187b3268126")]
+            public virtual RepoItemInfo ConfirmInfo
+            {
+                get
+                {
+                    return _confirmInfo;
+                }
+            }
+
+            /// <summary>
             /// The ContentPage folder.
             /// </summary>
             [RepositoryFolder("373057e6-3382-4e46-815b-737e7abdbb6b")]
@@ -406,6 +807,8 @@ namespace VodafonePOC
             RepoItemInfo _choosedefaultforthisdomainInfo;
             RepoItemInfo _testInfo;
             RepoItemInfo _encodersettingsInfo;
+            RepoItemInfo _nameInfo;
+            RepoItemInfo _weeklyschedulesInfo;
 
             /// <summary>
             /// Creates a new ContentPage  folder.
@@ -416,6 +819,8 @@ namespace VodafonePOC
                 _choosedefaultforthisdomainInfo = new RepoItemInfo(this, "ChooseDefaultForThisDomain", "aside/ul/?/?/a[@innertext>'Choose default for this d']", 30000, null, "3aafab49-fb6a-4ed7-8831-7fcb38ebc523");
                 _testInfo = new RepoItemInfo(this, "Test", "ul[1]/li[1]/a[@innertext='Test ']", 30000, null, "83065ac3-620b-48c5-a7e0-909a68083265");
                 _encodersettingsInfo = new RepoItemInfo(this, "EncoderSettings", "ul[2]/?/?/a[@innertext='Encoder settings']", 30000, null, "078447a5-ed66-46f8-aa3e-51d4bde59158");
+                _nameInfo = new RepoItemInfo(this, "Name", "article/ul/?/?/a/span[1]", 30000, null, "2707cfc6-deab-46a3-b4e2-5aa84bb938b2");
+                _weeklyschedulesInfo = new RepoItemInfo(this, "WeeklySchedules", "article/ul//span[@innertext='Weekly schedules']", 30000, null, "e3ce8cc0-1be1-4d9f-b827-f36910b550ab");
             }
 
             /// <summary>
@@ -511,6 +916,54 @@ namespace VodafonePOC
                 get
                 {
                     return _encodersettingsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Name item.
+            /// </summary>
+            [RepositoryItem("2707cfc6-deab-46a3-b4e2-5aa84bb938b2")]
+            public virtual Ranorex.SpanTag Name
+            {
+                get
+                {
+                    return _nameInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Name item info.
+            /// </summary>
+            [RepositoryItemInfo("2707cfc6-deab-46a3-b4e2-5aa84bb938b2")]
+            public virtual RepoItemInfo NameInfo
+            {
+                get
+                {
+                    return _nameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WeeklySchedules item.
+            /// </summary>
+            [RepositoryItem("e3ce8cc0-1be1-4d9f-b827-f36910b550ab")]
+            public virtual Ranorex.SpanTag WeeklySchedules
+            {
+                get
+                {
+                    return _weeklyschedulesInfo.CreateAdapter<Ranorex.SpanTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WeeklySchedules item info.
+            /// </summary>
+            [RepositoryItemInfo("e3ce8cc0-1be1-4d9f-b827-f36910b550ab")]
+            public virtual RepoItemInfo WeeklySchedulesInfo
+            {
+                get
+                {
+                    return _weeklyschedulesInfo;
                 }
             }
         }
@@ -864,6 +1317,72 @@ namespace VodafonePOC
                 get
                 {
                     return _articlebodyInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Ranorex93GoogleSearchAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("739c31f1-4f9e-425e-b95d-733894c2348f")]
+        public partial class Ranorex93GoogleSearchAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _somelitagInfo;
+
+            /// <summary>
+            /// Creates a new Ranorex93GoogleSearch  folder.
+            /// </summary>
+            public Ranorex93GoogleSearchAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Ranorex93GoogleSearch", "/dom[@domain='www.google.co.uk']", parentFolder, 30000, null, false, "739c31f1-4f9e-425e-b95d-733894c2348f", "")
+            {
+                _somelitagInfo = new RepoItemInfo(this, "SomeLiTag", ".//div[#'tads']//ul/li[2]", 30000, null, "ef6c0e90-c33c-4cf7-bab2-e787e8aa4c1f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("739c31f1-4f9e-425e-b95d-733894c2348f")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("739c31f1-4f9e-425e-b95d-733894c2348f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeLiTag item.
+            /// </summary>
+            [RepositoryItem("ef6c0e90-c33c-4cf7-bab2-e787e8aa4c1f")]
+            public virtual Ranorex.LiTag SomeLiTag
+            {
+                get
+                {
+                    return _somelitagInfo.CreateAdapter<Ranorex.LiTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SomeLiTag item info.
+            /// </summary>
+            [RepositoryItemInfo("ef6c0e90-c33c-4cf7-bab2-e787e8aa4c1f")]
+            public virtual RepoItemInfo SomeLiTagInfo
+            {
+                get
+                {
+                    return _somelitagInfo;
                 }
             }
         }

@@ -24,29 +24,29 @@ namespace VodafonePOC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The LoginModule recording.
+    ///The AddSchedule recording.
     /// </summary>
-    [TestModule("85069e36-4973-4324-86db-170665b29ab9", ModuleType.Recording, 1)]
-    public partial class LoginModule : ITestModule
+    [TestModule("429990a3-1458-4dfd-990c-16900f0aa5c1", ModuleType.Recording, 1)]
+    public partial class AddSchedule : ITestModule
     {
         /// <summary>
         /// Holds an instance of the VodafonePOCRepository repository.
         /// </summary>
         public static VodafonePOCRepository repo = VodafonePOCRepository.Instance;
 
-        static LoginModule instance = new LoginModule();
+        static AddSchedule instance = new AddSchedule();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public LoginModule()
+        public AddSchedule()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static LoginModule Instance
+        public static AddSchedule Instance
         {
             get { return instance; }
         }
@@ -79,24 +79,36 @@ namespace VodafonePOC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Username' at 28;17.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Username.Click("28;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddDay' at 172;14.", repo.ApplicationUnderTest.AddDayInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.AddDay.Click("172;14");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Kadali' with focus on 'ApplicationUnderTest.Username'.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Username.PressKeys("Kadali");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.NgScope' at 60;291.", repo.ApplicationUnderTest.NgScopeInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.NgScope.Click("60;291");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Password' at 36;17.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
-            repo.ApplicationUnderTest.Password.Click("36;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.NgScope' at 340;256.", repo.ApplicationUnderTest.NgScopeInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.NgScope.Click("340;256");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ven58kRs$' with focus on 'ApplicationUnderTest.Password'.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Password.PressKeys("ven58kRs$");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute TagValue to 'number:0' on item 'ApplicationUnderTest.AddTimeHours'.", repo.ApplicationUnderTest.AddTimeHoursInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.AddTimeHours.Element.SetAttributeValue("TagValue", "number:0");
+            Delay.Milliseconds(20);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Dropdown.Client' at 16;7.", repo.Dropdown.ClientInfo, new RecordItemIndex(4));
+            repo.Dropdown.Client.Click("16;7");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 91;15.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Submit.Click("91;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.AddAction' at 20;25.", repo.ApplicationUnderTest.AddActionInfo, new RecordItemIndex(5));
+            repo.ApplicationUnderTest.AddAction.Click("20;25");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Form' at 544;361.", repo.ApplicationUnderTest.FormInfo, new RecordItemIndex(6));
+            repo.ApplicationUnderTest.Form.Click("544;361");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 45;16.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(7));
+            repo.ApplicationUnderTest.Submit.Click("45;16");
             Delay.Milliseconds(0);
             
         }

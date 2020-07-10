@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="60367a9a-0391-4d08-971e-572e270fbbe1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SelectWeeklySchedule_Dropdown"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="286;20"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="efd2e5ec-0029-4d16-92a0-66908ef1d902"
+		sx="607"
+		sy="354"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="58eaa606-0c7b-4cf1-a77b-6e8179645aac"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, selecttag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="selecttag"
+				rect="321,334,720,39"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ng-pristine ng-untouched ng-not-empty ng-valid ng-valid-required
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="id"
+					type="System.String">
+						SCHEDULE
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ng-not-empty ng-pristine ng-untouched ng-valid ng-valid-required
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						select
+					</attribute>
+					<attribute
+					name="tagvalue"
+					type="System.String">
+						string:bb552235-fc79-49b9-bc46-d67e1a98c4a2
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+						SCHEDULE
+					</attribute>
+					<attribute
+					name="size"
+					type="System.String">
+						0
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-change"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-model"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-options"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="required"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div//select[@name='SCHEDULE']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="55092f29-9f37-45d2-94d8-79aefb95bb40">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCACCAfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDoaKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigDK1G5uv7OEuwREuhXZKSTk9DwMU+TVvIFyLiELJAFOFfIbd05wKmOnK9uIJLiZ
+0UqVB28Y6dqWbTYJpJ3k3kzKoYZ6Y6EUAVRrSbZQY1aRCoURyBlYt05qKTUJ7W7vZZo8iNI8RiQl
+eT1Bx/StCSxE0DRTzzSAkEE7QVI6EYAqJtKhk8/zpZZTOoDFiO3TGBQBHqV6ypdQICjJb+YJA2D1
+xTJNZS3yhVXMSKXLShWJI/hHc1YOlxsZmknmkaaPy2LFeB7YFPFgqSmSGaWJmUK23ad2Omcg0AWk
+YOiuvRhkUtA6UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRWd52r/APPrF+f/ANlR52r/APPrF+f/ANlU83kb+xf8y+80aKzvO1f/AJ9Yvz/+
+yo87V/8An1i/P/7Kjm8g9i/5l95o0Vnedq//AD6xfn/9lR52r/8APrF+f/2VHN5B7F/zL7zRorO8
+7V/+fWL8/wD7KjztX/59Yvz/APsqObyD2L/mX3mjRWd52r/8+sX5/wD2VHnav/z6xfn/APZUc3kH
+sX/MvvNGis7ztX/59Yvz/wDsqPO1f/n1i/P/AOyo5vIPYv8AmX3mjRWd52r/APPrF+f/ANlR52r/
+APPrF+f/ANlRzeQexf8AMvvNGis7ztX/AOfWL8//ALKjztX/AOfWL8//ALKjm8g9i/5l95o0Vned
+q/8Az6xfn/8AZUedq/8Az6xfn/8AZUc3kHsX/MvvNGis7ztX/wCfWL8//sqPO1f/AJ9Yvz/+yo5v
+IPYv+ZfeaNFZ3nav/wA+sX5//ZUedq//AD6xfn/9lRzeQexf8y+80aKzvO1f/n1i/P8A+yo87V/+
+fWL8/wD7Kjm8g9i/5l95o0Vnedq//PrF+f8A9lR52r/8+sX5/wD2VHN5B7F/zL7zRorO87V/+fWL
+8/8A7KjztX/59Yvz/wDsqObyD2L/AJl95o0Vnedq/wDz6xfn/wDZUedq/wDz6xfn/wDZUc3kHsX/
+ADL7zRorO87V/wDn1i/P/wCyo87V/wDn1i/P/wCyo5vIPYv+ZfeaNFZ3nav/AM+sX5//AGVHnav/
+AM+sX5//AGVHN5B7F/zL7zRorO87V/8An1i/P/7KjztX/wCfWL8//sqObyD2L/mX3mjRWd52r/8A
+PrF+f/2VHnav/wA+sX5//ZUc3kHsX/MvvNGis7ztX/59Yvz/APsqPO1f/n1i/P8A+yo5vIPYv+Zf
+eaNFZ3nav/z6xfn/APZUedq//PrF+f8A9lRzeQexf8y+80aKzvO1f/n1i/P/AOyo87V/+fWL8/8A
+7Kjm8g9i/wCZfeaNFZ3nav8A8+sX5/8A2VHnav8A8+sX5/8A2VHN5B7F/wAy+80aKzvO1f8A59Yv
+z/8AsqPO1f8A59Yvz/8AsqObyD2L/mX3mjRWd52r/wDPrF+f/wBlR52r/wDPrF+f/wBlRzeQexf8
+y+80aKzvO1f/AJ9Yvz/+yo87V/8An1i/P/7Kjm8g9i/5l95o0Vnedq//AD6xfn/9lR52r/8APrF+
+f/2VHN5B7F/zL7zRorO87V/+fWL8/wD7KjztX/59Yvz/APsqObyD2L/mX3mjRWd52r/8+sX5/wD2
+VHnav/z6xfn/APZUc3kHsX/MvvNGis7ztX/59Yvz/wDsqPO1f/n1i/P/AOyo5vIPYv8AmX3mjRWd
+52r/APPrF+f/ANlR52r/APPrF+f/ANlRzeQexf8AMvvNGis7ztX/AOfWL8//ALKijm8g9i/5l95q
+UUUVRgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVDe
+yNFYzyIcOkbMp9CBU1UNSvIBa3UBchxGy8qcZK5AzjGaAFgu44JJ4bu8QukmFMjKpwVU9OO5NXqp
+PYiS4LyLGymbzMEZ48vbj86ZpdsLOR4FGMQxswBJG87gT+g/KgDQooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKAKX9r2X/PY/98n/AAo/tey/57H/AL5P+FSfZLb/AJ94v++BR9ktv+feL/vgVPvG96PZ/h/k
+R/2vZf8APY/98n/Cj+17L/nsf++T/hUn2S2/594v++BR9ktv+feL/vgUe8F6PZ/h/kR/2vZf89j/
+AN8n/Cj+17L/AJ7H/vk/4VJ9ktv+feL/AL4FH2S2/wCfeL/vgUe8F6PZ/h/kR/2vZf8APY/98n/C
+j+17L/nsf++T/hUn2S2/594v++BR9ktv+feL/vgUe8F6PZ/h/kR/2vZf89j/AN8n/Cj+17L/AJ7H
+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
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SelectWeeklySchedule_Dropdown.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

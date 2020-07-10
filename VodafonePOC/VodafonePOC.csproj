@@ -122,8 +122,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSchedule.cs">
+      <BoundTo>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</BoundTo>
+      <DependentUpon>AddSchedule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0172b31e-3194-47ae-80df-193d4bd8e40c</id>
+    </Compile>
+    <Compile Include="AddSchedule.UserCode.cs">
+      <BoundTo>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</BoundTo>
+      <DependentUpon>AddSchedule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ed9eea0-12be-4bc0-932f-78db09039aa7</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_WeeklySchedule.cs">
+      <BoundTo>29736ce1-7c18-416e-8d59-38715ff4507e</BoundTo>
+      <DependentUpon>AlarmScheduling_WeeklySchedule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f4a52c9d-70e1-4530-993c-b364ebb818fb</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_WeeklySchedule.UserCode.cs">
+      <BoundTo>29736ce1-7c18-416e-8d59-38715ff4507e</BoundTo>
+      <DependentUpon>AlarmScheduling_WeeklySchedule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>740b7558-4fea-460d-ac22-97d6843a7f78</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>0169905d-84c7-423b-aab8-b31b092e6f42</id>
+    </Compile>
+    <Compile Include="Default_Domain.cs">
+      <BoundTo>2b12397b-4668-43fc-8eed-0b8fce2f5389</BoundTo>
+      <DependentUpon>Default_Domain.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f8be2431-de9b-42c4-a12d-cf40a5604f75</id>
+    </Compile>
+    <Compile Include="Default_Domain.UserCode.cs">
+      <BoundTo>2b12397b-4668-43fc-8eed-0b8fce2f5389</BoundTo>
+      <DependentUpon>Default_Domain.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8e4fcc24-bd4f-4ecf-bd66-dc8dd482add7</id>
+    </Compile>
+    <Compile Include="DeleteSchedule.cs">
+      <BoundTo>94d7942f-959a-441a-9fd7-6adcf10694d8</BoundTo>
+      <DependentUpon>DeleteSchedule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e54545b5-d26a-4120-aec5-107649e930bd</id>
+    </Compile>
+    <Compile Include="DeleteSchedule.UserCode.cs">
+      <BoundTo>94d7942f-959a-441a-9fd7-6adcf10694d8</BoundTo>
+      <DependentUpon>DeleteSchedule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7018f3f8-4b50-4e2d-97bc-29ac32c2cc21</id>
+    </Compile>
+    <Compile Include="EncoderSettings.cs">
+      <BoundTo>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</BoundTo>
+      <DependentUpon>EncoderSettings.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6804f04a-ea91-4c58-b129-47bef518f20a</id>
+    </Compile>
+    <Compile Include="EncoderSettings.UserCode.cs">
+      <BoundTo>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</BoundTo>
+      <DependentUpon>EncoderSettings.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>124ed4f9-3257-47ac-bea4-01d580f6885e</id>
     </Compile>
     <Compile Include="ExitAUT.cs">
       <BoundTo>1438283c-6382-429b-9939-e7ecb8cf0254</BoundTo>
@@ -136,6 +196,18 @@
       <DependentUpon>ExitAUT.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5edb14ea-7edf-4c01-b52f-2e4b1b4df841</id>
+    </Compile>
+    <Compile Include="Findoutmore_Click.cs">
+      <BoundTo>412f75df-70e2-4178-8e70-3cbf1a2a6f95</BoundTo>
+      <DependentUpon>Findoutmore_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e3a846c2-6640-47f0-b67c-ce99e2606184</id>
+    </Compile>
+    <Compile Include="Findoutmore_Click.UserCode.cs">
+      <BoundTo>412f75df-70e2-4178-8e70-3cbf1a2a6f95</BoundTo>
+      <DependentUpon>Findoutmore_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>556a94d7-5aa2-4aa5-9e8f-04091e693edf</id>
     </Compile>
     <Compile Include="LoginModule.cs">
       <BoundTo>498421fc-8d98-4a89-931b-6219b005a95d</BoundTo>
@@ -160,6 +232,54 @@
       <DependentUpon>LogoutModule.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>7bf1bac9-ff11-4cdf-bfa4-0cfdffe326d7</id>
+    </Compile>
+    <Compile Include="Save.cs">
+      <BoundTo>b5023f07-8637-4ed4-8e92-c9a41814fd6d</BoundTo>
+      <DependentUpon>Save.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>44177a07-c703-49eb-9db7-95c300bf8539</id>
+    </Compile>
+    <Compile Include="Save.UserCode.cs">
+      <BoundTo>b5023f07-8637-4ed4-8e92-c9a41814fd6d</BoundTo>
+      <DependentUpon>Save.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>45a9fa7f-dc89-4176-8c7a-09a2628d808f</id>
+    </Compile>
+    <Compile Include="SelectWeeklySchedule_Dropdown.cs">
+      <BoundTo>cc559a23-a7e0-45b7-b3d2-d510870a4a9d</BoundTo>
+      <DependentUpon>SelectWeeklySchedule_Dropdown.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c70623af-fbc1-457b-9519-c9951ed5b05a</id>
+    </Compile>
+    <Compile Include="SelectWeeklySchedule_Dropdown.UserCode.cs">
+      <BoundTo>cc559a23-a7e0-45b7-b3d2-d510870a4a9d</BoundTo>
+      <DependentUpon>SelectWeeklySchedule_Dropdown.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2393a99b-ef92-4700-aeb5-1f893bf3b5ed</id>
+    </Compile>
+    <Compile Include="Select_AlwaysArmed.cs">
+      <BoundTo>eb1d3318-e723-42c0-9bca-87165c8ca93f</BoundTo>
+      <DependentUpon>Select_AlwaysArmed.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>14d9072a-ba9b-4705-a1e5-263bccf747d7</id>
+    </Compile>
+    <Compile Include="Select_AlwaysArmed.UserCode.cs">
+      <BoundTo>eb1d3318-e723-42c0-9bca-87165c8ca93f</BoundTo>
+      <DependentUpon>Select_AlwaysArmed.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d9a5af25-771b-44e4-a238-84abd3ba596d</id>
+    </Compile>
+    <Compile Include="Select_Schedule.cs">
+      <BoundTo>ec538254-67d3-479d-b3bf-618e4a0240ba</BoundTo>
+      <DependentUpon>Select_Schedule.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>76c4c544-3398-42b7-9896-6567e0568763</id>
+    </Compile>
+    <Compile Include="Select_Schedule.UserCode.cs">
+      <BoundTo>ec538254-67d3-479d-b3bf-618e4a0240ba</BoundTo>
+      <DependentUpon>Select_Schedule.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d64624e-8275-43d7-9552-ec4c5a548bb7</id>
     </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>1722c4ae-62de-4d6d-9166-9ebbed22ce1c</BoundTo>
@@ -196,13 +316,47 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AD_Testsuite.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>76b09a63-b2e4-4489-8df9-bdb44a4c8298</id>
+    </Content>
+    <None Include="AddSchedule.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</id>
+      <recordtableid>429990a3-1458-4dfd-990c-16900f0aa5c1</recordtableid>
+    </None>
+    <None Include="AlarmScheduling_WeeklySchedule.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>29736ce1-7c18-416e-8d59-38715ff4507e</id>
+      <recordtableid>14b96420-2635-4a2b-86b3-bef287bef56f</recordtableid>
+    </None>
     <None Include="app.config">
       <id>15daee03-3a2e-49b2-8815-5fd149b6453f</id>
+    </None>
+    <None Include="Default_Domain.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>2b12397b-4668-43fc-8eed-0b8fce2f5389</id>
+      <recordtableid>3633e997-479e-4ff4-a3c3-ec41c3b6edd4</recordtableid>
+    </None>
+    <None Include="DeleteSchedule.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>94d7942f-959a-441a-9fd7-6adcf10694d8</id>
+      <recordtableid>4773f7e6-381e-429c-95d7-705e09560a0c</recordtableid>
+    </None>
+    <None Include="EncoderSettings.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</id>
+      <recordtableid>4cf28761-c328-47f7-897b-794a5acd810b</recordtableid>
     </None>
     <None Include="ExitAUT.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>1438283c-6382-429b-9939-e7ecb8cf0254</id>
       <recordtableid>24357e9d-5b82-46d5-b2de-6760c07f02d8</recordtableid>
+    </None>
+    <None Include="Findoutmore_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>412f75df-70e2-4178-8e70-3cbf1a2a6f95</id>
+      <recordtableid>6b3005a8-443c-493c-a1c5-59d3fa38111f</recordtableid>
     </None>
     <None Include="LoginModule.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
@@ -214,6 +368,26 @@
       <id>e0c5f8f1-517e-4e0b-b344-3334dfdeb131</id>
       <recordtableid>9bcf6000-ba74-4390-baf1-6f35cd22b6de</recordtableid>
     </None>
+    <None Include="Save.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>b5023f07-8637-4ed4-8e92-c9a41814fd6d</id>
+      <recordtableid>2eea1a7a-ac1a-44a0-a8f2-f537cf997619</recordtableid>
+    </None>
+    <None Include="SelectWeeklySchedule_Dropdown.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>cc559a23-a7e0-45b7-b3d2-d510870a4a9d</id>
+      <recordtableid>60367a9a-0391-4d08-971e-572e270fbbe1</recordtableid>
+    </None>
+    <None Include="Select_AlwaysArmed.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>eb1d3318-e723-42c0-9bca-87165c8ca93f</id>
+      <recordtableid>2afb5707-78d8-4cfe-85fd-3611bcad5f87</recordtableid>
+    </None>
+    <None Include="Select_Schedule.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>ec538254-67d3-479d-b3bf-618e4a0240ba</id>
+      <recordtableid>50e08b75-2c43-439b-a474-60d69bc4147f</recordtableid>
+    </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>1722c4ae-62de-4d6d-9166-9ebbed22ce1c</id>
@@ -224,6 +398,10 @@
       <id>05031ea0-f6b8-40fc-ba26-a001a8cdd91d</id>
       <recordtableid>1b7b3ef2-c061-47a4-83c8-ce13306b4774</recordtableid>
     </None>
+    <Content Include="VodafonePOC.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7b20c90c-af0a-4556-9782-5eda61514777</id>
+    </Content>
     <None Include="VodafonePOCRepository.rximg">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <DependentUpon>VodafonePOCRepository.rxrep</DependentUpon>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="14b96420-2635-4a2b-86b3-bef287bef56f"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AlarmScheduling_WeeklySchedule"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="40;12"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9e7b7d2c-7aa0-4fcd-96d8-e1bfec321326"
+		sx="397"
+		sy="471"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e3ce8cc0-1be1-4d9f-b827-f36910b550ab"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="357,459,109,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						linknamelink
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Weekly schedules
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						linknamelink
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul//span[@innertext='Weekly schedules']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="009fac1a-3e34-4d55-a2ad-6999538bbf77">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAAzAQgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiimlwOnNADqKZvPpSh/UUAOooBz0ooAKKKp3mpQ2cojkWQkru+UD/H2pNpblRhKbtFFyisz+3b
+X/nnN+Q/xo/t21/55zfkP8aXPHua/V6v8pp0Vmf27a/885vyH+NH9u2v/POb8h/jRzx7h9Xq/wAp
+p0Vmf27a/wDPOb8h/jR/btr/AM85vyH+NHPHuH1er/KadFZn9u2v/POb8h/jR/btr/zzm/If40c8
+e4fV6v8AKadFZn9u2v8Azzm/If40f27a/wDPOb8h/jRzx7h9Xq/ymnRWZ/btr/zzm/If40f27a/8
+85vyH+NHPHuH1er/ACmnRWZ/btr/AM85vyH+NOi1m3llSNUlBdgoyB3/ABo549xPD1V9k0aKKKox
+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
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AlarmScheduling_WeeklySchedule.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

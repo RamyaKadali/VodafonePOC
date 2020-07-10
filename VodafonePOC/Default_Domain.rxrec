@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3633e997-479e-4ff4-a3c3-ec41c3b6edd4"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Default_Domain"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="63;25"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bc52dd4a-47a8-4ca4-86f9-d87f3c030afa"
+		sx="918"
+		sy="340"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="3aafab49-fb6a-4ed7-8831-7fcb38ebc523"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="855,315,225,64"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Choose default for this domain
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://ext-735-opco.caas.edgevis.io:9443/#/domains/Test/settings/encoder/alarm-scheduling/weekly/default
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ui-sref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/aside/ul/?/?/a[@innertext&gt;'Choose default for this d']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="b664ce8e-3cc5-4e37-b8e3-5148c96db258">
+				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
+No9B+VFFABtHoPyo2j0H5UUUAG0eg/KjaPQflRRQAbR6D8qNo9B+VFFABtHoPyo2j0H5UUUAG0eg
+/KjaPQflRRQAbR6D8qNo9B+VFFABtHoPyo2j0H5UUUAG0eg/KjaPQflRRQAbR6D8qNo9B+VFFABt
+HoPyo2j0H5UUUAG0eg/KjaPQflRRQAbR6D8qNo9B+VFFABtHoPyo2j0H5UUUAG0eg/KjaPQflRRQ
+AbR6D8qKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAt6pGIt
+QkC8BsN+dVKv63/yEV/65D+ZqhQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAX9b/wCQiv8A1yH8zVCr+t/8hFf+uQ/maoUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUA
+FFFFAF/W/wDkIr/1yH8zVCr+t/8AIRX/AK5D+ZqhQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAX9b/5CK/9ch/M1Qq/rf8AyEV/
+65D+ZqhQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAX9b/5CK/8AXIfzNUKv62hTUVBbd+6HP4mqFABRT4lDyBT0NWfsaf3mqE5M
+6JQpQdm2U6KufY0/vNR9jT+81P3ibUe7/D/Mp0Vc+xp/eaj7Gn95qPeC1Hu/w/zKdFXPsaf3mo+x
+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
++hUUUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Default_Domain.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
