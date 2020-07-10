@@ -122,15 +122,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddSchedule.cs">
+    <Compile Include="AddScheduleSave.cs">
       <BoundTo>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</BoundTo>
-      <DependentUpon>AddSchedule.rxrec</DependentUpon>
+      <DependentUpon>AddScheduleSave.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
       <id>0172b31e-3194-47ae-80df-193d4bd8e40c</id>
     </Compile>
-    <Compile Include="AddSchedule.UserCode.cs">
+    <Compile Include="AddScheduleSave.UserCode.cs">
       <BoundTo>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</BoundTo>
-      <DependentUpon>AddSchedule.rxrec</DependentUpon>
+      <DependentUpon>AddScheduleSave.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5ed9eea0-12be-4bc0-932f-78db09039aa7</id>
     </Compile>
@@ -316,11 +316,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AD.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>76b09a63-b2e4-4489-8df9-bdb44a4c8298</id>
-    </Content>
-    <None Include="AddSchedule.rxrec">
+    <None Include="AddScheduleSave.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</id>
       <recordtableid>429990a3-1458-4dfd-990c-16900f0aa5c1</recordtableid>

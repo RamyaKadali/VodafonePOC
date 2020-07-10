@@ -2,10 +2,32 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="01c699f9-4634-4fe1-a234-4542b17d779c"
+			name="Select_AlwaysArmed"
+			ref="2afb5707-78d8-4cfe-85fd-3611bcad5f87"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="0b96a045-cda1-4af6-8728-5116f292dd4d"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="139a25f6-4f2f-476c-a347-92b4e5a695eb"
+			name="teardown">
+			</teardown>
 			<teardown
 			id="170d69b0-62ab-4cd7-8c55-22d5068e827e"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="193c3db7-04cb-4f3a-83b1-afcb635c06dc"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="1bda7cd2-ec5a-4724-8051-8945c0ddfad7"
 			name="StartAUT"
@@ -23,6 +45,12 @@
 			name="VodafonePOC"
 			reportlevel="Info;20">
 			</testcase>
+			<testmodule
+			id="351d61b7-8d77-4ae3-a96a-92d71b78c807"
+			name="AlarmScheduling_WeeklySchedule"
+			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="38a028b8-b56f-49f0-87e3-126e6ad80331"
 			name="LoginModule"
@@ -48,10 +76,62 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="50c3112a-735d-425d-b13f-5fae6e506208"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="511a2308-9643-465a-9e9d-b8e5e3af763e"
-			name="Login">
+			name="WeeklySchedule_AlwaysArmed">
 			</testcase>
+			<testmodule
+			id="571391f0-f9d2-4e83-85e8-33a7f3c6b5c9"
+			name="SelectWeeklySchedule_Dropdown"
+			ref="60367a9a-0391-4d08-971e-572e270fbbe1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5d7d1411-f727-4e9e-a85d-0df5f66bcba7"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="60c3955d-ca5d-4b1e-a778-cc440c6dcbf6"
+			name="Save"
+			ref="2eea1a7a-ac1a-44a0-a8f2-f537cf997619"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="80872fe5-47ad-46c6-b03e-70395a750f91"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="83970293-8d31-49cb-8492-3df363f3cd1c"
+			name="Select_Schedule"
+			ref="50e08b75-2c43-439b-a474-60d69bc4147f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="951a2b1e-f274-4765-9633-50decfea90d7"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="9ac2e780-0378-4e29-ad55-b097bf57a92e"
+			name="WeeklySchedule_Info">
+			</testcase>
+			<testmodule
+			id="9ccacc3d-f2fb-45a4-b5f1-93ad18e0e0f6"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="9cd609cc-b8fc-44fc-a714-d035da455db6"
 			name="ExitAUT"
@@ -59,9 +139,29 @@
 			type="Recording">
 			</testmodule>
 			<setup
+			id="aa479943-78ee-42f5-a523-ca42ae5e09b6"
+			name="setup">
+			</setup>
+			<testcase
+			id="ab17e9e1-196f-438f-9f9b-2c6757bb4d2c"
+			name="WeeklySchedule_AddSchedule">
+			</testcase>
+			<setup
 			id="acae0f27-004f-4b2e-bae7-4f9e41334ac3"
 			name="setup">
 			</setup>
+			<testmodule
+			id="af0c4afa-94ee-4caf-aef8-eab3e594989e"
+			name="AlarmScheduling_WeeklySchedule"
+			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="b0c20a78-79a8-4472-ad44-d380bb7a07d7"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="b509e3ea-145e-443e-b35c-4bbef34276b5"
 			name="ExitAUT"
@@ -74,14 +174,52 @@
 			ref="85069e36-4973-4324-86db-170665b29ab9"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="bcc68ae3-b631-46ee-80a7-72af1e9fd4f8"
+			name="AlarmScheduling_WeeklySchedule"
+			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="c4fc0c83-d330-42fe-ada2-3de57e3634fe"
+			name="AddScheduleSave"
+			ref="429990a3-1458-4dfd-990c-16900f0aa5c1"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="c676d95b-4cd4-4697-bb7e-f87c8ef60164"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="c7ac5816-1382-42a2-bfec-710f7686f85d"
+			name="Default_Domain"
+			ref="3633e997-479e-4ff4-a3c3-ec41c3b6edd4"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="c9cebaf9-221f-4ef4-9621-ee6e65a31dbb"
+			name="setup">
+			</setup>
 			<testcase
 			id="cb5a568e-ad0d-45a1-a5b4-13f4c3b9dcea"
-			name="TestCase">
+			name="Login">
 			</testcase>
 			<setup
 			id="df49e9e0-9cf3-480e-a66b-a62a5e181b12"
 			name="setup">
 			</setup>
+			<testmodule
+			id="e2c79862-6c45-44a0-a9a3-e4d183ad23a4"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e7974065-ef17-4104-8062-04b9c6c0d3bc"
+			name="Findoutmore_Click"
+			ref="6b3005a8-443c-493c-a1c5-59d3fa38111f"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="f87dc1e8-103a-4b30-8297-d06649adfdf6"
 			name="teardown">
@@ -96,7 +234,7 @@
 				name="VodafonePOC">
 					<testcase
 					id="cb5a568e-ad0d-45a1-a5b4-13f4c3b9dcea"
-					name="TestCase">
+					name="Login">
 						<setup
 						id="acae0f27-004f-4b2e-bae7-4f9e41334ac3"
 						name="setup">
@@ -120,7 +258,7 @@
 					</testcase>
 					<testcase
 					id="511a2308-9643-465a-9e9d-b8e5e3af763e"
-					name="Login">
+					name="WeeklySchedule_AlwaysArmed">
 						<setup
 						id="df49e9e0-9cf3-480e-a66b-a62a5e181b12"
 						name="setup">
@@ -133,11 +271,111 @@
 						id="38a028b8-b56f-49f0-87e3-126e6ad80331"
 						name="LoginModule">
 						</testmodule>
+						<testmodule
+						id="5d7d1411-f727-4e9e-a85d-0df5f66bcba7"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="351d61b7-8d77-4ae3-a96a-92d71b78c807"
+						name="AlarmScheduling_WeeklySchedule">
+						</testmodule>
+						<testmodule
+						id="c7ac5816-1382-42a2-bfec-710f7686f85d"
+						name="Default_Domain">
+						</testmodule>
+						<testmodule
+						id="571391f0-f9d2-4e83-85e8-33a7f3c6b5c9"
+						name="SelectWeeklySchedule_Dropdown">
+						</testmodule>
+						<testmodule
+						id="01c699f9-4634-4fe1-a234-4542b17d779c"
+						name="Select_AlwaysArmed">
+						</testmodule>
+						<testmodule
+						id="60c3955d-ca5d-4b1e-a778-cc440c6dcbf6"
+						name="Save">
+						</testmodule>
 						<teardown
 						id="170d69b0-62ab-4cd7-8c55-22d5068e827e"
 						name="teardown">
 							<testmodule
 							id="9cd609cc-b8fc-44fc-a714-d035da455db6"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="ab17e9e1-196f-438f-9f9b-2c6757bb4d2c"
+					name="WeeklySchedule_AddSchedule">
+						<setup
+						id="c9cebaf9-221f-4ef4-9621-ee6e65a31dbb"
+						name="setup">
+							<testmodule
+							id="e2c79862-6c45-44a0-a9a3-e4d183ad23a4"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="50c3112a-735d-425d-b13f-5fae6e506208"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="193c3db7-04cb-4f3a-83b1-afcb635c06dc"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="bcc68ae3-b631-46ee-80a7-72af1e9fd4f8"
+						name="AlarmScheduling_WeeklySchedule">
+						</testmodule>
+						<testmodule
+						id="83970293-8d31-49cb-8492-3df363f3cd1c"
+						name="Select_Schedule">
+						</testmodule>
+						<testmodule
+						id="c4fc0c83-d330-42fe-ada2-3de57e3634fe"
+						name="AddScheduleSave">
+						</testmodule>
+						<teardown
+						id="c676d95b-4cd4-4697-bb7e-f87c8ef60164"
+						name="teardown">
+							<testmodule
+							id="80872fe5-47ad-46c6-b03e-70395a750f91"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="9ac2e780-0378-4e29-ad55-b097bf57a92e"
+					name="WeeklySchedule_Info">
+						<setup
+						id="aa479943-78ee-42f5-a523-ca42ae5e09b6"
+						name="setup">
+							<testmodule
+							id="0b96a045-cda1-4af6-8728-5116f292dd4d"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="b0c20a78-79a8-4472-ad44-d380bb7a07d7"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="9ccacc3d-f2fb-45a4-b5f1-93ad18e0e0f6"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="af0c4afa-94ee-4caf-aef8-eab3e594989e"
+						name="AlarmScheduling_WeeklySchedule">
+						</testmodule>
+						<testmodule
+						id="e7974065-ef17-4104-8062-04b9c6c0d3bc"
+						name="Findoutmore_Click">
+						</testmodule>
+						<teardown
+						id="139a25f6-4f2f-476c-a347-92b4e5a695eb"
+						name="teardown">
+							<testmodule
+							id="951a2b1e-f274-4765-9633-50decfea90d7"
 							name="ExitAUT">
 							</testmodule>
 						</teardown>
@@ -157,6 +395,12 @@
 			</testcontainer>
 			<testcontainer
 			id="511a2308-9643-465a-9e9d-b8e5e3af763e">
+			</testcontainer>
+			<testcontainer
+			id="9ac2e780-0378-4e29-ad55-b097bf57a92e">
+			</testcontainer>
+			<testcontainer
+			id="ab17e9e1-196f-438f-9f9b-2c6757bb4d2c">
 			</testcontainer>
 			<testcontainer
 			id="cb5a568e-ad0d-45a1-a5b4-13f4c3b9dcea">
