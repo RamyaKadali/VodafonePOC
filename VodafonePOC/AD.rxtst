@@ -27,7 +27,7 @@
 			enabletracingscreenshots="True"
 			id="33d88b39-92de-44a4-9e4b-9d7b6f431714"
 			junitreport="True"
-			name="AD_Testsuite"
+			name="AD"
 			reportcompress="True"
 			reportdirectoryname="Reports"
 			reportenabled="True"
@@ -93,7 +93,7 @@
 			</testmodule>
 			<testcase
 			id="9c49f312-3207-487f-92b2-c376411f47c7"
-			name="AD_Testsuite"
+			name="AD"
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
@@ -134,10 +134,10 @@
 		<childhierarchy>
 			<testsuite
 			id="33d88b39-92de-44a4-9e4b-9d7b6f431714"
-			name="AD_Testsuite">
+			name="AD">
 				<testcase
 				id="9c49f312-3207-487f-92b2-c376411f47c7"
-				name="AD_Testsuite">
+				name="AD">
 					<setup
 					id="555171aa-f34a-4ab1-a325-1f78fbc09dd6"
 					name="setup">
@@ -221,7 +221,7 @@
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="AD_Testsuite">
+	default="AD">
 		<testconfiguration
 		name="A_VodafonePOC">
 			<testcontainer
@@ -238,7 +238,7 @@
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
-		name="AD_Testsuite">
+		name="AD">
 			<testcontainer
 			id="07766b3d-5823-49e3-b3c1-6b5a5781cd3e">
 			</testcontainer>
