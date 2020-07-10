@@ -221,9 +221,39 @@
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="AD_Testsuite">
 		<testconfiguration
-		name="TestRun">
+		name="A_VodafonePOC">
+			<testcontainer
+			id="07766b3d-5823-49e3-b3c1-6b5a5781cd3e">
+			</testcontainer>
+			<testcontainer
+			id="39efa185-dc61-4ff3-9536-4034d63c958f">
+			</testcontainer>
+			<testcontainer
+			id="9c49f312-3207-487f-92b2-c376411f47c7">
+			</testcontainer>
+			<testcontainer
+			id="a021bab9-feca-4911-891a-aa220e5f1c7b">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="AD_Testsuite">
+			<testcontainer
+			id="07766b3d-5823-49e3-b3c1-6b5a5781cd3e">
+			</testcontainer>
+			<testcontainer
+			id="39efa185-dc61-4ff3-9536-4034d63c958f">
+			</testcontainer>
+			<testcontainer
+			id="9c49f312-3207-487f-92b2-c376411f47c7">
+			</testcontainer>
+			<testcontainer
+			id="a021bab9-feca-4911-891a-aa220e5f1c7b">
+			</testcontainer>
+		</testconfiguration>
+		<testconfiguration
+		name="TestRun2">
 			<testcontainer
 			id="07766b3d-5823-49e3-b3c1-6b5a5781cd3e">
 			</testcontainer>

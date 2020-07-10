@@ -316,7 +316,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AD_Testsuite.rxtst">
+    <Content Include="AD.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>76b09a63-b2e4-4489-8df9-bdb44a4c8298</id>
     </Content>

@@ -6,7 +6,7 @@
   },
   {
     "Enabled": "True",
-    "TestSuite": "AD_Testsuite",
+    "TestSuite": "AD",
     "RunConfig": "TestRun"
   }
 ]
