@@ -90,12 +90,6 @@
 			ref="adbf08ad-971b-4397-b137-f45bd0331393"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="97e0893d-fc34-4a5b-8e22-a4c55d38f45c"
-			name="Delay_Add"
-			ref="7d36cf0c-0b2e-4c50-b9bc-e70db6893143"
-			type="Recording">
-			</testmodule>
 			<setup
 			id="9eca12e4-ee95-437a-9a2d-b861fdeeac6a"
 			name="setup">
@@ -236,10 +230,6 @@
 						name="EncoderSettings">
 						</testmodule>
 						<testmodule
-						id="97e0893d-fc34-4a5b-8e22-a4c55d38f45c"
-						name="Delay_Add">
-						</testmodule>
-						<testmodule
 						id="b8b31cd4-d9a4-4583-9017-70a5753da485"
 						name="Click_Alarmschedule_ExceptionLists">
 						</testmodule>
@@ -280,12 +270,6 @@
 			</testcontainer>
 			<testcontainer
 			id="599d53ed-f452-4a23-952a-43378ac68fbf">
-			</testcontainer>
-			<testcontainer
-			id="a1ad92fd-62c2-4071-b996-64ba364f2697">
-			</testcontainer>
-			<testcontainer
-			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
