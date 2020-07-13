@@ -21,6 +21,28 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<teardown
+			id="2259f22b-b5c3-4e30-a936-e288ac352875"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="3411ce74-ce3f-47fc-adab-fddfe3c07e3a"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="5367d594-2ecd-4cc1-b0de-e032e84c68be"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="536ff682-ef3c-40a6-bcbc-3633cebc9591"
+			name="AlarmScheduling_WeeklySchedule"
+			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="599d53ed-f452-4a23-952a-43378ac68fbf"
 			name="Vodafone_AD"
@@ -36,10 +58,24 @@
 			ref="85069e36-4973-4324-86db-170665b29ab9"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="9eca12e4-ee95-437a-9a2d-b861fdeeac6a"
+			name="setup">
+			</setup>
+			<testcase
+			id="a1ad92fd-62c2-4071-b996-64ba364f2697"
+			name="AD_WeeklySchedule">
+			</testcase>
 			<teardown
 			id="b34ebff2-b287-497d-a1d4-39d49e1189b9"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="d1f6769b-6ea8-4ddf-8a4f-74a7b319382d"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7"
 			name="Login_AD">
@@ -54,6 +90,12 @@
 			id="e0b8eead-6324-445f-bcaa-c58e049e92fa"
 			name="ExitAUT"
 			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e6ab62e3-bc40-434d-82d8-64a90a8fc8fd"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
 			type="Recording">
 			</testmodule>
 		</flatlistofchildren>
@@ -88,6 +130,38 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="a1ad92fd-62c2-4071-b996-64ba364f2697"
+					name="AD_WeeklySchedule">
+						<setup
+						id="9eca12e4-ee95-437a-9a2d-b861fdeeac6a"
+						name="setup">
+							<testmodule
+							id="e6ab62e3-bc40-434d-82d8-64a90a8fc8fd"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="d1f6769b-6ea8-4ddf-8a4f-74a7b319382d"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="3411ce74-ce3f-47fc-adab-fddfe3c07e3a"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="536ff682-ef3c-40a6-bcbc-3633cebc9591"
+						name="AlarmScheduling_WeeklySchedule">
+						</testmodule>
+						<teardown
+						id="2259f22b-b5c3-4e30-a936-e288ac352875"
+						name="teardown">
+							<testmodule
+							id="5367d594-2ecd-4cc1-b0de-e032e84c68be"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -111,7 +185,7 @@
 			id="599d53ed-f452-4a23-952a-43378ac68fbf">
 			</testcontainer>
 			<testcontainer
-			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7">
+			id="a1ad92fd-62c2-4071-b996-64ba364f2697">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
