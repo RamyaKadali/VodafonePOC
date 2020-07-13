@@ -2,6 +2,12 @@
 <testsuitedoc>
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
+			<testmodule
+			id="09af7085-bb5a-4711-872d-d92d5b662b9d"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -32,6 +38,16 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="3584e93e-7fbd-47a2-bbd6-dcb23c93d84f"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<testcase
+			id="4b05bafe-442a-4096-bc3e-daab47e6be8f"
+			name="AD_ExceptionList">
+			</testcase>
+			<testmodule
 			id="5367d594-2ecd-4cc1-b0de-e032e84c68be"
 			name="ExitAUT"
 			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
@@ -48,6 +64,16 @@
 			name="Vodafone_AD"
 			reportlevel="Info;20">
 			</testcase>
+			<teardown
+			id="5f3205f5-2872-4235-80af-773ecefceedf"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="650bebfd-2d9a-4a0e-a7bc-364f6f242387"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="671ae4b3-6b28-4b3f-ae74-87d87d74c802"
 			name="setup">
@@ -58,10 +84,28 @@
 			ref="85069e36-4973-4324-86db-170665b29ab9"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="80a8d6aa-f97e-4327-814e-00545ad8b2c0"
+			name="ExistingList_Save"
+			ref="adbf08ad-971b-4397-b137-f45bd0331393"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="97e0893d-fc34-4a5b-8e22-a4c55d38f45c"
+			name="Delay_Add"
+			ref="7d36cf0c-0b2e-4c50-b9bc-e70db6893143"
+			type="Recording">
+			</testmodule>
 			<setup
 			id="9eca12e4-ee95-437a-9a2d-b861fdeeac6a"
 			name="setup">
 			</setup>
+			<testmodule
+			id="a0130516-0e72-4e40-af2f-9c56b4f6ba91"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="a1ad92fd-62c2-4071-b996-64ba364f2697"
 			name="AD_WeeklySchedule">
@@ -70,6 +114,12 @@
 			id="b34ebff2-b287-497d-a1d4-39d49e1189b9"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="b8b31cd4-d9a4-4583-9017-70a5753da485"
+			name="Click_Alarmschedule_ExceptionLists"
+			ref="e04c81bb-985d-4643-9804-85aad92125fc"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="d1f6769b-6ea8-4ddf-8a4f-74a7b319382d"
 			name="LoginModule"
@@ -98,6 +148,10 @@
 			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="f260ab7f-c007-4297-aaa8-4b593590a391"
+			name="setup">
+			</setup>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -162,6 +216,46 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="4b05bafe-442a-4096-bc3e-daab47e6be8f"
+					name="AD_ExceptionList">
+						<setup
+						id="f260ab7f-c007-4297-aaa8-4b593590a391"
+						name="setup">
+							<testmodule
+							id="3584e93e-7fbd-47a2-bbd6-dcb23c93d84f"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="09af7085-bb5a-4711-872d-d92d5b662b9d"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="650bebfd-2d9a-4a0e-a7bc-364f6f242387"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="97e0893d-fc34-4a5b-8e22-a4c55d38f45c"
+						name="Delay_Add">
+						</testmodule>
+						<testmodule
+						id="b8b31cd4-d9a4-4583-9017-70a5753da485"
+						name="Click_Alarmschedule_ExceptionLists">
+						</testmodule>
+						<testmodule
+						id="80a8d6aa-f97e-4327-814e-00545ad8b2c0"
+						name="ExistingList_Save">
+						</testmodule>
+						<teardown
+						id="5f3205f5-2872-4235-80af-773ecefceedf"
+						name="teardown">
+							<testmodule
+							id="a0130516-0e72-4e40-af2f-9c56b4f6ba91"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -182,10 +276,16 @@
 		<testconfiguration
 		name="TestRun2">
 			<testcontainer
+			id="4b05bafe-442a-4096-bc3e-daab47e6be8f">
+			</testcontainer>
+			<testcontainer
 			id="599d53ed-f452-4a23-952a-43378ac68fbf">
 			</testcontainer>
 			<testcontainer
 			id="a1ad92fd-62c2-4071-b996-64ba364f2697">
+			</testcontainer>
+			<testcontainer
+			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
