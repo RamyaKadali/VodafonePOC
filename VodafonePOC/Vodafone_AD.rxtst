@@ -95,6 +95,10 @@
 			id="37b31e91-5770-4ecc-b339-e0c309e91dec"
 			name="teardown">
 			</teardown>
+			<teardown
+			id="3b4e3a29-f282-45b4-b347-8b8e8179dd36"
+			name="teardown">
+			</teardown>
 			<testmodule
 			id="44eb6ea9-eb4f-4b5b-bd68-8f09a7acb327"
 			name="ChooseExistingExceptionList_Click"
@@ -126,6 +130,10 @@
 			id="5f3205f5-2872-4235-80af-773ecefceedf"
 			name="teardown">
 			</teardown>
+			<testcase
+			id="5f7840c7-b451-4168-8596-abea7258adf4"
+			name="FC_Test">
+			</testcase>
 			<testmodule
 			id="64c5bbed-fd0b-4f29-93f7-545c0f8140cb"
 			name="EncoderSettings"
@@ -168,6 +176,12 @@
 			id="8228734a-60f4-4063-a8af-daee42e6ed8e"
 			name="setup">
 			</setup>
+			<testmodule
+			id="881ab7ee-681e-4341-92aa-39b600fdc455"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="91f16b69-5f8f-4e8b-9d9f-c25198253d85"
 			name="ExceptionList_Default">
@@ -188,6 +202,12 @@
 			</testcase>
 			<testmodule
 			id="a6813e96-3095-4875-a639-3b7681482dde"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="a9ddd201-74e7-4b70-8f0a-3996f6a1a760"
 			name="ExitAUT"
 			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
 			type="Recording">
@@ -220,6 +240,10 @@
 			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7"
 			name="Login_AD">
 			</testcase>
+			<setup
+			id="d878fefd-d9e2-472f-bc94-8ec3f1e7b7e8"
+			name="setup">
+			</setup>
 			<testmodule
 			id="d9ba89d7-cf04-4075-ad61-e072912a9879"
 			name="StartAUT"
@@ -424,6 +448,26 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="5f7840c7-b451-4168-8596-abea7258adf4"
+					name="FC_Test">
+						<setup
+						id="d878fefd-d9e2-472f-bc94-8ec3f1e7b7e8"
+						name="setup">
+							<testmodule
+							id="881ab7ee-681e-4341-92aa-39b600fdc455"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<teardown
+						id="3b4e3a29-f282-45b4-b347-8b8e8179dd36"
+						name="teardown">
+							<testmodule
+							id="a9ddd201-74e7-4b70-8f0a-3996f6a1a760"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -447,10 +491,7 @@
 			id="599d53ed-f452-4a23-952a-43378ac68fbf">
 			</testcontainer>
 			<testcontainer
-			id="a1ad92fd-62c2-4071-b996-64ba364f2697">
-			</testcontainer>
-			<testcontainer
-			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7">
+			id="5f7840c7-b451-4168-8596-abea7258adf4">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
