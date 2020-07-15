@@ -46,6 +46,12 @@
 			reportlevel="Info;20">
 			</testcase>
 			<testmodule
+			id="307c5c20-c642-4a11-9c3a-6876a4b68875"
+			name="Weeklyschedule_click"
+			ref="4ee62b3a-cab3-49e1-b43c-2171b92bf03c"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="351d61b7-8d77-4ae3-a96a-92d71b78c807"
 			name="AlarmScheduling_WeeklySchedule"
 			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
@@ -77,6 +83,12 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
+			id="42c61acc-bd25-4e2f-b60c-d661b22139f8"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="50c3112a-735d-425d-b13f-5fae6e506208"
 			name="LoginModule"
 			ref="85069e36-4973-4324-86db-170665b29ab9"
@@ -104,6 +116,10 @@
 			ref="2eea1a7a-ac1a-44a0-a8f2-f537cf997619"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="67e48e39-23ae-4fb3-9394-42d33a4e269d"
+			name="AD2">
+			</testcase>
 			<testmodule
 			id="80872fe5-47ad-46c6-b03e-70395a750f91"
 			name="ExitAUT"
@@ -114,6 +130,22 @@
 			id="83970293-8d31-49cb-8492-3df363f3cd1c"
 			name="Select_Schedule"
 			ref="50e08b75-2c43-439b-a474-60d69bc4147f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="84d55c10-e407-43b3-8318-3e6aa9b28615"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="867b0f99-00c7-4248-8aab-527554953476"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="94185117-0666-4dac-9007-750ab64ae69e"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -181,6 +213,12 @@
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="bd7bfc46-217f-4313-adf9-68956b4936e0"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="c4fc0c83-d330-42fe-ada2-3de57e3634fe"
 			name="AddScheduleSave"
 			ref="429990a3-1458-4dfd-990c-16900f0aa5c1"
@@ -220,6 +258,10 @@
 			ref="6b3005a8-443c-493c-a1c5-59d3fa38111f"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="e9f554d6-a775-4c14-8273-3c80bf14b320"
+			name="setup">
+			</setup>
 			<teardown
 			id="f87dc1e8-103a-4b30-8297-d06649adfdf6"
 			name="teardown">
@@ -380,6 +422,38 @@
 							</testmodule>
 						</teardown>
 					</testcase>
+					<testcase
+					id="67e48e39-23ae-4fb3-9394-42d33a4e269d"
+					name="AD2">
+						<setup
+						id="e9f554d6-a775-4c14-8273-3c80bf14b320"
+						name="setup">
+							<testmodule
+							id="42c61acc-bd25-4e2f-b60c-d661b22139f8"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="bd7bfc46-217f-4313-adf9-68956b4936e0"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="94185117-0666-4dac-9007-750ab64ae69e"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="307c5c20-c642-4a11-9c3a-6876a4b68875"
+						name="Weeklyschedule_click">
+						</testmodule>
+						<teardown
+						id="867b0f99-00c7-4248-8aab-527554953476"
+						name="teardown">
+							<testmodule
+							id="84d55c10-e407-43b3-8318-3e6aa9b28615"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -395,6 +469,9 @@
 			</testcontainer>
 			<testcontainer
 			id="511a2308-9643-465a-9e9d-b8e5e3af763e">
+			</testcontainer>
+			<testcontainer
+			id="67e48e39-23ae-4fb3-9394-42d33a4e269d">
 			</testcontainer>
 			<testcontainer
 			id="9ac2e780-0378-4e29-ad55-b097bf57a92e">
