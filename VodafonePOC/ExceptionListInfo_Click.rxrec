@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="72de6e35-99aa-4591-8484-7dfc00de16a7"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ExceptionListInfo_Click"
+	namespace="VodafonePOC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="150;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="629231a8-2e53-4bbc-90fa-83f8f448eee6"
+		sx="501"
+		sy="402"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="49e333cc-2606-43b1-9b28-e01d0d461c3f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="1"
+				prefcap="atag"
+				rect="351,394,236,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Find out more about alarm scheduling
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://ext-735-opco.caas.edgevis.io:9443/#/help/alarmscheduling
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ui-sref"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/p[@innertext&gt;'Exception lists allow you']/a[@innertext&gt;'Find out more about alarm']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1b838619-c112-4bc6-8730-752e3d4cc74f">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a06a0523-71bc-4fa3-9ad4-9c7da84ef4c5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="15b0f15b-bd48-486c-9933-d92798e40b94"
+			sourcename="ElementTree">
+				<element
+				capabilities="webelement, strongtag"
+				dontcache="True"
+				enabled="True"
+				flavor="web"
+				hasfocus="False"
+				index="0"
+				prefcap="strongtag"
+				rect="389,500,91,18"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Exception lists
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						strong
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/?/?/strong[@innertext='Exception lists']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d18e5513-7080-4e50-8919-9f43aaa0fedf">
+				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
+mt45ipcMCvQq5Uj8QadHGkSbEGB9c0UUAf/Z
+			</helperscreenshot>
+			<matchname>
+				InnerText
+			</matchname>
+			<matchvalue>
+				Exception lists
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="7948b87b-6c5a-4673-adf7-db614a8ed059"
+	name="VodafonePOCRepository"
+	relativepath="VodafonePOCRepository.rxrep">
+		<codegen
+		classname="VodafonePOCRepository"
+		namespace="VodafonePOC">
+		</codegen>
+		<rootfolder
+		id="146bcdc9-cac8-4e11-8b44-873bb922bd05"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ExceptionListInfo_Click.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

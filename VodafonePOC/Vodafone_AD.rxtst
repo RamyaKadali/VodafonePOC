@@ -3,6 +3,12 @@
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
 			<testmodule
+			id="097e1913-556b-42f9-b2d8-a8dff56477f9"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="09af7085-bb5a-4711-872d-d92d5b662b9d"
 			name="LoginModule"
 			ref="85069e36-4973-4324-86db-170665b29ab9"
@@ -27,10 +33,52 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="12fe5cef-f5fc-4fc2-a42b-48d9061a6e99"
+			name="ExceptionListInfo_Click"
+			ref="72de6e35-99aa-4591-8484-7dfc00de16a7"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1886a6c1-ce59-4212-b15b-e7488ac0543f"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="192735cd-5d77-427f-988f-61c17df24fe2"
+			name="ChooseExistingList"
+			ref="b92a6d08-83c6-429f-9929-332725d51f8f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1e17dcf7-762d-4abc-836f-1c65af36a1d0"
+			name="LoginModule"
+			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="1e7589d0-46c5-4738-9340-33fd6214f88d"
+			name="ExceptionLists_Click"
+			ref="5c519c8b-cec3-4b63-bfb9-cb512b224c39"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="20a0518b-605e-4693-90f7-28d393263e94"
+			name="AlarmScheduling_ExceptionList"
+			ref="024475df-5295-457e-9e7b-b047dc07ae0f"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="2259f22b-b5c3-4e30-a936-e288ac352875"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="2edaefc5-6e2b-429b-a802-493daa2f1370"
+			name="ChooseDefault_Click"
+			ref="42a32ca3-36d1-4e74-98a0-f8c80f9019b1"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="3411ce74-ce3f-47fc-adab-fddfe3c07e3a"
 			name="EncoderSettings"
@@ -41,6 +89,16 @@
 			id="3584e93e-7fbd-47a2-bbd6-dcb23c93d84f"
 			name="StartAUT"
 			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<teardown
+			id="37b31e91-5770-4ecc-b339-e0c309e91dec"
+			name="teardown">
+			</teardown>
+			<testmodule
+			id="44eb6ea9-eb4f-4b5b-bd68-8f09a7acb327"
+			name="ChooseExistingExceptionList_Click"
+			ref="dec68afd-c4a2-4264-800d-0b40ef37034e"
 			type="Recording">
 			</testmodule>
 			<testcase
@@ -69,6 +127,12 @@
 			name="teardown">
 			</teardown>
 			<testmodule
+			id="64c5bbed-fd0b-4f29-93f7-545c0f8140cb"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="650bebfd-2d9a-4a0e-a7bc-364f6f242387"
 			name="EncoderSettings"
 			ref="4cf28761-c328-47f7-897b-794a5acd810b"
@@ -84,12 +148,30 @@
 			ref="85069e36-4973-4324-86db-170665b29ab9"
 			type="Recording">
 			</testmodule>
+			<teardown
+			id="6ad5b077-df40-4881-b124-1b55586fbef8"
+			name="teardown">
+			</teardown>
 			<testmodule
-			id="80a8d6aa-f97e-4327-814e-00545ad8b2c0"
-			name="ExistingList_Save"
-			ref="adbf08ad-971b-4397-b137-f45bd0331393"
+			id="6fbb27a4-d7d9-4da2-8e61-bf09a8293d56"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="7236b28b-195d-42ee-ae62-f71946ac2852"
+			name="StartAUT"
+			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<setup
+			id="8228734a-60f4-4063-a8af-daee42e6ed8e"
+			name="setup">
+			</setup>
+			<testcase
+			id="91f16b69-5f8f-4e8b-9d9f-c25198253d85"
+			name="ExceptionList_Default">
+			</testcase>
 			<setup
 			id="9eca12e4-ee95-437a-9a2d-b861fdeeac6a"
 			name="setup">
@@ -104,6 +186,12 @@
 			id="a1ad92fd-62c2-4071-b996-64ba364f2697"
 			name="AD_WeeklySchedule">
 			</testcase>
+			<testmodule
+			id="a6813e96-3095-4875-a639-3b7681482dde"
+			name="ExitAUT"
+			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
 			<teardown
 			id="b34ebff2-b287-497d-a1d4-39d49e1189b9"
 			name="teardown">
@@ -114,6 +202,14 @@
 			ref="e04c81bb-985d-4643-9804-85aad92125fc"
 			type="Recording">
 			</testmodule>
+			<setup
+			id="cb1c0b61-c2d6-4b01-b7cc-bd8ac5b22864"
+			name="setup">
+			</setup>
+			<testcase
+			id="ce87fdc0-de3d-44d1-a1d8-357b1c1adbe8"
+			name="ExceptionList_Info">
+			</testcase>
 			<testmodule
 			id="d1f6769b-6ea8-4ddf-8a4f-74a7b319382d"
 			name="LoginModule"
@@ -134,6 +230,12 @@
 			id="e0b8eead-6324-445f-bcaa-c58e049e92fa"
 			name="ExitAUT"
 			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="e5ed2bf0-922c-46d9-873f-fc42b3fba722"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -234,14 +336,90 @@
 						name="Click_Alarmschedule_ExceptionLists">
 						</testmodule>
 						<testmodule
-						id="80a8d6aa-f97e-4327-814e-00545ad8b2c0"
-						name="ExistingList_Save">
+						id="44eb6ea9-eb4f-4b5b-bd68-8f09a7acb327"
+						name="ChooseExistingExceptionList_Click">
 						</testmodule>
 						<teardown
 						id="5f3205f5-2872-4235-80af-773ecefceedf"
 						name="teardown">
 							<testmodule
 							id="a0130516-0e72-4e40-af2f-9c56b4f6ba91"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="91f16b69-5f8f-4e8b-9d9f-c25198253d85"
+					name="ExceptionList_Default">
+						<setup
+						id="8228734a-60f4-4063-a8af-daee42e6ed8e"
+						name="setup">
+							<testmodule
+							id="7236b28b-195d-42ee-ae62-f71946ac2852"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="1e17dcf7-762d-4abc-836f-1c65af36a1d0"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="e5ed2bf0-922c-46d9-873f-fc42b3fba722"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="1e7589d0-46c5-4738-9340-33fd6214f88d"
+						name="ExceptionLists_Click">
+						</testmodule>
+						<testmodule
+						id="2edaefc5-6e2b-429b-a802-493daa2f1370"
+						name="ChooseDefault_Click">
+						</testmodule>
+						<testmodule
+						id="192735cd-5d77-427f-988f-61c17df24fe2"
+						name="ChooseExistingList">
+						</testmodule>
+						<teardown
+						id="37b31e91-5770-4ecc-b339-e0c309e91dec"
+						name="teardown">
+							<testmodule
+							id="6fbb27a4-d7d9-4da2-8e61-bf09a8293d56"
+							name="ExitAUT">
+							</testmodule>
+						</teardown>
+					</testcase>
+					<testcase
+					id="ce87fdc0-de3d-44d1-a1d8-357b1c1adbe8"
+					name="ExceptionList_Info">
+						<setup
+						id="cb1c0b61-c2d6-4b01-b7cc-bd8ac5b22864"
+						name="setup">
+							<testmodule
+							id="1886a6c1-ce59-4212-b15b-e7488ac0543f"
+							name="StartAUT">
+							</testmodule>
+						</setup>
+						<testmodule
+						id="097e1913-556b-42f9-b2d8-a8dff56477f9"
+						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="64c5bbed-fd0b-4f29-93f7-545c0f8140cb"
+						name="EncoderSettings">
+						</testmodule>
+						<testmodule
+						id="20a0518b-605e-4693-90f7-28d393263e94"
+						name="AlarmScheduling_ExceptionList">
+						</testmodule>
+						<testmodule
+						id="12fe5cef-f5fc-4fc2-a42b-48d9061a6e99"
+						name="ExceptionListInfo_Click">
+						</testmodule>
+						<teardown
+						id="6ad5b077-df40-4881-b124-1b55586fbef8"
+						name="teardown">
+							<testmodule
+							id="a6813e96-3095-4875-a639-3b7681482dde"
 							name="ExitAUT">
 							</testmodule>
 						</teardown>
@@ -270,6 +448,12 @@
 			</testcontainer>
 			<testcontainer
 			id="599d53ed-f452-4a23-952a-43378ac68fbf">
+			</testcontainer>
+			<testcontainer
+			id="91f16b69-5f8f-4e8b-9d9f-c25198253d85">
+			</testcontainer>
+			<testcontainer
+			id="ce87fdc0-de3d-44d1-a1d8-357b1c1adbe8">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
