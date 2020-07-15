@@ -387,9 +387,9 @@
 	<datasources>
 	</datasources>
 	<testconfigurations
-	default="TestRun">
+	default="TestRun1">
 		<testconfiguration
-		name="TestRun">
+		name="TestRun1">
 			<testcontainer
 			id="2afb61ae-7fa9-43ba-a31d-a9f554505fa1">
 			</testcontainer>
