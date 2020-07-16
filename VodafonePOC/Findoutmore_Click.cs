@@ -83,10 +83,6 @@ namespace VodafonePOC
             repo.ApplicationUnderTest.FindOutMoreAboutAlarmScheduling.Click("132;10");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 62;12.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Submit.Click("62;12");
-            Delay.Milliseconds(0);
-            
         }
 
 #region Image Feature Data

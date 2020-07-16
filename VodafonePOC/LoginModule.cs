@@ -95,8 +95,8 @@ namespace VodafonePOC
             repo.ApplicationUnderTest.Password.PressKeys("ven58kRs$");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 91;15.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));
-            repo.ApplicationUnderTest.Submit.Click("91;15");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 130;6.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Submit.Click("130;6");
             Delay.Milliseconds(0);
             
         }

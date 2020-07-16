@@ -3,5 +3,10 @@
     "Enabled": "True",
     "TestSuite": "VodafonePOC",
     "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Vodafone_AD",
+    "RunConfig": "TestRun"
   }
 ]

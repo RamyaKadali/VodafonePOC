@@ -18,7 +18,7 @@ name="VodafonePOCRepository">
 		id="b9a60ef8-a539-4715-a337-85a448c239ae"
 		isrooted="True"
 		name="ApplicationUnderTest"
-		refimgid="d9ff556d-d28f-48a7-afea-fb1deb3752c7"
+		refimgid="f4ce27a2-2970-4b9f-9439-5fbb154b3987"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
@@ -60,16 +60,6 @@ name="VodafonePOCRepository">
 			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/h1[@innertext='Pick your alarm settings']"
 			searchtimeout="30000ms">
 				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/h1[@innertext='Pick your alarm settings']
-			</item>
-			<item
-			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
-			id="653dc6ae-5054-4c3b-8dd7-56323e2d08f2"
-			name="Submit"
-			refimgid="d94aa8a8-0b5f-4715-9777-91f7750b097a"
-			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']"
-			searchtimeout="30000ms">
-				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -137,6 +127,26 @@ name="VodafonePOCRepository">
 				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/span[@innertext='Weekly schedules']"
 				searchtimeout="30000ms">
 					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul//span[@innertext='Weekly schedules']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="182bdc9c-d622-4c23-8f8a-5caa6b06eb9c"
+				name="ExceptionLists"
+				refimgid="c4a6db60-30f4-422d-aa31-97fbb9f9272b"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[2]/a/span[1]/span[@innertext='Exception lists']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul//span[@innertext='Exception lists']
+				</item>
+				<item
+				addcaps="unknown,webelement,smalltag"
+				capname="smalltag"
+				id="4fe48ed5-9cf3-43d4-a63b-9ea820d09b79"
+				name="SmallTag7DayPlannersListingWhenAlar"
+				refimgid="8ff6ecbe-6b5c-49b2-9770-584ac0954137"
+				refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/small[@innertext>'7-day planners listing when']"
+				searchtimeout="30000ms">
+					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul//small[@innertext&gt;'7-day planners listing when']
 				</item>
 				<basepath>
 					/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div
@@ -319,6 +329,254 @@ name="VodafonePOCRepository">
 			searchtimeout="30000ms">
 				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'loading']/?/?/a[@innertext='Confirm']
 			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="2f92af02-1ee3-428b-9cf4-6891c1f47c8b"
+			name="AlarmScheduling"
+			refimgid="d045ddfc-be6b-4970-8847-6d7d03e8ed4d"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/span[@innertext='Alarm scheduling']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[1]//span[@innertext='Alarm scheduling']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="5e11aa18-727d-46f7-b1ac-e84a530232a6"
+			name="ExceptionList"
+			refimgid="6a4d852f-0b2c-42c5-b627-954448d9b3d0"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[1]/a/span[1]/span[@innertext='Exception list ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[1]//span[@innertext='Exception list ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="05d0a20b-9ece-4d13-b173-692746dfd958"
+			name="Test1"
+			refimgid="b41164d9-cb2b-4def-897d-0b2fe1206206"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[4]/a/span[1]/span[@innertext='Test 1 ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[4]//span[@innertext='Test 1 ']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="5b3dcac7-6c22-444e-8a84-47d3e3c7ef8b"
+			name="AddDate"
+			refimgid="1668f1bd-7fcf-44f3-9f76-5d9bcf5de4ea"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'addDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'addDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8616b60b-5ac2-40fb-9df6-5c4c25fb926a"
+			name="ATagAdd"
+			refimgid="c2bbbc91-6604-4be3-933e-ce00e6f85be2"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[2]/tbody/tr/td[3]/a[@innertext='Add']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/table[2]//a[@innertext='Add']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="758df2dc-ef7e-40b2-aadc-d2a7a22f220a"
+			name="EXCEPTIONS"
+			refimgid="b942cb26-35b7-4c2d-be1f-5f2bb2fa8c5b"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/div[1]/p/select[@name='EXCEPTIONS']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div//select[@name='EXCEPTIONS']
+			</item>
+			<item
+			addcaps="unknown,webelement,strongtag"
+			capname="strongtag"
+			id="d01638b7-aad6-463f-977e-0803d0d93873"
+			name="DefaultForThisDomain"
+			refimgid="686a1e4e-a94b-4106-8372-f3f660bf823a"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[3]/a[@href='https://ext-735-opco.caas.edgevis.io:9443/#/domains/Test/settings/encoder/alarm-scheduling/exceptions/edit/Bank%20Holidays']/span[1]/span[@innertext='Bank Holidays ']/small/strong[@innertext='Default for this domain']"
+			searchtimeout="30000ms">
+				<image
+				guid="25c0a3df-c59e-4266-83bc-272911ffed69"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAAHYAAAAOCAYAAAD61ui9AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAABOdJREFUWEftV01IY1cUzu6t3vKtHlm9xV0MIt08BrKQt4mEKUE3Fhfi
+FJmhCJbAYIPUUhcNwxBKpdpmIG26MDBSrR2QUbBMBqXICFUaGGkDMpaZFGKHDFgogbf5eu5f8oyJ
+k3TaMkg+kLx3z73nnnO+e8/7DKGHruGfbGIyPITlshp4A9Ejtits42PHgWVdRWq3qsbeTPSIvaTo
+EXtJ0SP2kkIRe4RsJIRQyIDlMDDbol8Xw6lNPK3JGe3gl3KIWwYMywHrj+GrJ8rQMQpIhGjvSJai
+qGB7IYnkSgsnfgm5uAXDsOCwfsS630jiyQqSyQVsV+RrIcHzjiB7JN/rePEQSZfh2uwjPFdDHeMo
+i0g9p/8OLx4m4bJrmH10PsImYnWCPk62EghTcIaXRckXk1pie9qgdSEkCmqgawSIPV3HGH9u5Wx7
+GkY7WxcoptkZItsS+zr4n4i9CG2I5fApaU6aQaT5qO6mMEA307RtmKaN6NR93PvcAzP5uhCN000f
+/RqbmWHYNIc5dLtonjv1AGVNXihBTxx6P/6uiZ3FTD+t4c+0jjGG0XvHYjZ+ysBjpthH2kaxdLCD
+1IDcw7Es2O4w5oVSVf5MU8TJ3BkUlIB9/v0NOCJe1ZnYJ1gQxFLHMakT2KboPNHULqr1uIic6q7c
+S3QLm1Sxg7Fvn0mnAj5Ky9dxxeR+HfKj8hDE1nCY1za5lteOX5ajbETubZhUM4rXjmJ8fIDm2LAp
+Tv4u1PezTSRcGqOYbeEnisUiOSgkRE0iRJr2ZVIeNtX+AmL1xrTw00WMGGSP5YkkoJyPifGh5Yo6
+8YEb6/uUpnjA1qT22QmxVAR90lvdSpWEtFWwOsIPXR/SPEG/iHQf2YwRrFb0XsrWhOYbquOP5UVm
+yMf4u4fccSOuH5cGxRxeQAnKMei6nEeMz+1Lg29ZXR9rELufkp1vbJ0OS8MWTu3X68tuH5C/A9xm
+fG8Lk1s0U9fCy4Efb19vWMrA5eO8DueIDcH6cJdH1yGxt94VvybzEI/HEfdccaP67zw+S6x/gp35
+Yer7DK4Xh2trn/82sWoNo0JKq2qxPA5lczMoKVsQrYlt9R6Iq1rAzBXqGIaDt1Nr+Pn3JuGhYmNp
+FU2gFRdUDcfWT6VNf24CNpluMweN/Q8Pv8NUlDpMfwSDHoPJx9sQq0t3AbGn2Jjgt8LC3JfSgTW3
+p2wNBImtrI6I02hNbonTea5IdWL3MGfp90ABX4PYvTlqPzRWJ5b7U7Yg/hGxwlLDy182kYqGyW5i
+cCngvRtiK8sYarLJdNsR+xFuheV4RvbvRo26J7aGp2sTSjzlcFRZla04TESo7xWfU6ODGyT2OOfV
+N0JtBx8I8rhPapWizbyDNVrvF9Poo3nniD3OwePPOrogzhDbQStuQ6wUe62IbH5v+Pn1zz/wUl9S
+3QonNvCXGqq34gh1Cd6KtyZh6Rg6aMUy3XbETuMGr72olY/fvpGfwS6JlaJCiBFGH/L5xr87DfHE
+RQcXAW/hs31dCOVQtSwuQPhH3qQ/HWh5430SEJQgCQOLC5t6sEEiynjwniMEEW/14ysBGX+GWIIW
+NO3EUxti/eIirgoBwlvbHXzRAbGP799UooWLFxI67nXkiuoGCgTFE4kcLjDrMZy1nRdPryL2Ln7I
+xWFxgSUEKdWOj3dGbA+XC8Df8+wKbzxJ6UIAAAAASUVORK5CYII=
+				</image>
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[3]//span[@innertext='Bank Holidays ']/?/?/strong[@innertext='Default for this domain']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3d077a87-3ea7-4faf-91ab-000529de797e"
+			name="HttpsExt735OpcoCaasEdgevisIo944"
+			refimgid="0da002a1-b5ed-4694-b09d-0824a569fc6b"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[10]/a[@href='https://ext-735-opco.caas.edgevis.io:9443/#/domains/Test/settings/encoder/alarm-scheduling/weekly/edit/Weekend']"
+			searchtimeout="30000ms">
+				<image
+				guid="ccdc674d-9c95-4645-bb6a-800b5565d56c"
+				name="Screenshot1">
+					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
+				</image>
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[10]/a[@href&gt;'https://ext-735-opco.caas']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="04b583ba-4c91-41ae-8c11-8107ee34b9a8"
+			name="DefaultForThisDomain1"
+			refimgid="897ced99-1fe2-4ba0-bf46-ba49128efc4c"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[10]/a[@href='https://ext-735-opco.caas.edgevis.io:9443/#/domains/Test/settings/encoder/alarm-scheduling/weekly/edit/Weekend']/span[1]/span[@innertext='Weekend ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[10]//span[@innertext='Weekend ']
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="4ff8a0f0-2bca-4c15-8dc8-8ec295dc0774"
+			name="SelectAnExceptionList"
+			refimgid="ab687631-c770-4fce-bc97-894ab6d1b9a3"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/div/h2[@innertext='Select an exception list']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/?/?/h2[@innertext='Select an exception list']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e63a6a85-b91a-44c0-ba73-d86629360a66"
+			name="ContainerNgScope"
+			refimgid="430cfd72-4cba-4722-861b-f9bad2001295"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/?/?/div
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c6e54d69-a969-4aca-87ca-3a86f823f66c"
+			name="Submit"
+			refimgid="3b112ce4-cafd-45b4-b490-2fd3d4820360"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//input[#'submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="6643b1d9-57e4-44c1-a983-369b97ed1df7"
+			name="Test11"
+			refimgid="087ebf77-7126-477c-9053-f524d2d732a7"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/ul/li[6]/a/span[1]/span[@innertext='Test 1 ']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/ul/li[6]//span[@innertext='Test 1 ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="49e333cc-2606-43b1-9b28-e01d0d461c3f"
+			name="FindOutMoreAboutAlarmScheduling1"
+			refimgid="11f267b1-a44c-47b2-b6b8-579286644b03"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']/div/div/div/article/p[@innertext>'Exception lists allow you']/a[@innertext>'Find out more about alarm']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//section[#'float']//article/p[@innertext&gt;'Exception lists allow you']/a[@innertext&gt;'Find out more about alarm']
+			</item>
+			<item
+			addcaps="unknown,webelement,strongtag"
+			capname="strongtag"
+			id="15b0f15b-bd48-486c-9933-d92798e40b94"
+			name="ExceptionLists"
+			refimgid="4bed4f0c-5b44-4a5d-b3b0-80b018e0bbf4"
+			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/p[@innertext='These contain a list of single day arm and disarm for specific dates. They override the weekly schedule, allowing the ability to arm and disarm where appropriate for public holidays and events.']/strong[@innertext='Exception lists']"
+			searchtimeout="30000ms">
+				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//form[#'form']/?/?/strong[@innertext='Exception lists']
+			</item>
 			<basepath>
 				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']
 			</basepath>
@@ -367,6 +625,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/winapp[@packagename='Microsoft.MicrosoftEdge']/list[@automationid='TabsList']//button[@automationid='AllInputCloseButton']/text[@name='']
 			</item>
+			<item
+			addcaps="container,uiautomation"
+			capname="container"
+			id="e56c2c67-5441-417a-bc3f-a17016014e00"
+			name="MNavSwipeScroller"
+			refimgid="fe3defc2-ed84-4af0-a835-fa3a7bf5af45"
+			refpath="/winapp[@packagename='Microsoft.MicrosoftEdge' and @appid='MicrosoftEdge' and @name='Microsoft Edge']/container/container[@automationid='m_navSwipeScroller']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='Microsoft.MicrosoftEdge']/?/?/container[@automationid='m_navSwipeScroller']
+			</item>
 			<basepath>
 				/winapp[@packagename='Microsoft.MicrosoftEdge']
 			</basepath>
@@ -398,6 +666,36 @@ htdQOCTj6/8B4rQEjOBNS80AAAAASUVORK5CYII=
 			refpath="/container/listitem"
 			searchtimeout="30000ms">
 				/container[@caption='dropdown']/listitem
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="50bba6b2-df7b-4e8c-bf5d-f9b65a5e41ee"
+			name="Accept"
+			refimgid="70917866-e2c7-449d-bbab-072b61e0638d"
+			refpath="/container[@caption='dropdown']/container[@accessiblename='Buttons']/button[@accessiblename='Accept']"
+			searchtimeout="30000ms">
+				/container[@caption='dropdown']/?/?/button[@accessiblename='Accept']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="dec91d1b-47c6-41ab-9fa2-1a79620817c5"
+			name="September"
+			refimgid="cd750003-2c53-4a7d-9fa5-59b4cccf1993"
+			refpath="/container[@caption='dropdown']/container[@accessiblename='Month']/list/listitem[@accessiblename='September']"
+			searchtimeout="30000ms">
+				/container[@caption='dropdown']/?/?/list[@accessiblename='Month']/listitem[@accessiblename='September']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5e3fe622-8ea6-46a2-b72f-15fea39c18ef"
+			name="Client1"
+			refimgid="d8e88eb1-fcca-4a10-bd1e-cb2166f4bed5"
+			refpath="/container/container/button"
+			searchtimeout="30000ms">
+				/container[@caption='dropdown']/?/?/button
 			</item>
 			<basepath>
 				/container[@caption='dropdown']
@@ -534,9 +832,222 @@ zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="9f1caf70-70ae-4b26-86cb-dfa2261cdeec"
+		isrooted="True"
+		name="MyhrtoolkitHRSoftwareAsAService"
+		refpath="/dom[@domain='app.myhrtoolkit.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="e985938a-7510-4fe3-81d8-f84f394f33b3"
+			name="Locale"
+			refimgid="19d26d6c-434c-4543-ae27-e5cd19487cb6"
+			refpath="/dom[@domain='app.myhrtoolkit.com']//table[#'site-wrapper']/tbody/tr/td/div"
+			searchtimeout="30000ms">
+				/dom[@domain='app.myhrtoolkit.com']//table[#'site-wrapper']/tbody//div
+			</item>
+			<basepath>
+				/dom[@domain='app.myhrtoolkit.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="654275ce-97aa-416e-803a-bc6f7cbb9ab5"
+		isrooted="True"
+		name="GTBoardAgileBoardJira"
+		refpath="/dom[@domain='digitalbarriers.atlassian.net']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			addcaps="unknown,webelement,ultag"
+			capname="ultag"
+			id="96db1f89-6c5b-48e6-a223-338f8c3abbe1"
+			isrooted="True"
+			name="GhxColumns"
+			refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,sectiontag"
+				capname="sectiontag"
+				id="c748e720-db3a-4561-890a-39b15f8ada01"
+				name="POCDesignProjectStructureAndTest"
+				refimgid="1492e896-795b-4e90-ab35-7d1a55aaa06b"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]/div/div[1]/section[@innertext>'POC - Design Project Structure']"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]//section[@innertext&gt;'POC - Design Project Structure']
+				</item>
+				<item
+				addcaps="unknown,webelement,sectiontag"
+				capname="sectiontag"
+				id="0ded0bbc-811d-4453-ad69-fd014766c72b"
+				name="GhxStatFields"
+				refimgid="3dd28137-f2b3-445c-b617-43969ccac1c2"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]/div/div[2]/div[2]/div/section[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]/div/div[2]/div[2]/div/section[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,litag"
+				capname="litag"
+				id="9cebfdb5-3603-46d4-a997-d4bc748380e8"
+				name="GhxColumnGhxNarrowCardUiSortable"
+				refimgid="3a8d8379-9112-41f9-ae8e-d63b141fbe52"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,sectiontag"
+				capname="sectiontag"
+				id="288eb21d-1ec7-4278-a983-2cecd6072d8b"
+				name="GhxStatFields1"
+				refimgid="15ea13a4-1b16-482d-be80-37506e28f7aa"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[1]/div/div/section[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[1]/div/div/section[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="23c060bc-e6bf-4808-a7fb-07a375e08a6c"
+				name="GhxSubtaskGroupUiSortable"
+				refimgid="b26861cf-591d-4bdc-91fb-8e2c94ce31f7"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]/div/div[2]/div[2]"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul/li[3]/div/div[2]/div[2]
+				</item>
+				<basepath>
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'ghx-pool']/div[2]/ul
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2471c46a-98b5-426d-ad44-55f0b407acc2"
+			isrooted="True"
+			name="DrnsbFScImYgaF"
+			refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="db779df2-dc77-495d-a5df-8399048f3b7e"
+				name="FhXBEtScBYzVrUScJlBbkxYTvYP"
+				refimgid="a9ce0aa7-769c-4f18-b301-81f4dc857be7"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]/div/div[2]/div/table/tbody/tr[3]/td[2]/a/div"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]//table/tbody/tr[3]/td[2]/?/?/div
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="b0dea96f-99e2-455b-898d-0bad98f65139"
+				name="DivTagBWR"
+				refimgid="6ed329cd-d964-47cf-b69e-f225cf083d85"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]/div/div[2]/div/table/tbody/tr[3]/td[3]/div[@innertext='BWR']"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]//table/tbody/tr[3]/td[3]/div[@innertext='BWR']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f0112a7a-d205-4730-9aba-6de19c5a02e2"
+				name="FNAaeiScCkixc"
+				refimgid="e2a34e51-8559-4d0a-acac-30ebd007fd87"
+				refpath="/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]/div/div[2]/div/table/tbody/tr[1]/td[5]/div/div/div/div"
+				searchtimeout="30000ms">
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]/div/div[2]/?/?/table/tbody/tr[1]/td[5]/div/div/div/div
+				</item>
+				<basepath>
+					/dom[@domain='digitalbarriers.atlassian.net']//div[#'helpPanelContainer']/div/div[1]/div[3]/div[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='digitalbarriers.atlassian.net']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="desktop,nativewindow"
+		capname="desktop"
+		id="71bcaed3-06c6-4394-8cef-a16b6b1b952d"
+		isrooted="True"
+		name="Explorer"
+		refpath="/desktop[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,nativewindow"
+			capname="list"
+			id="0b766076-d8be-4a36-80ff-e36370ddae0a"
+			name="List1"
+			refimgid="e439bf7e-5db0-4c3f-beeb-987575b595e7"
+			refpath="/desktop[@processname='explorer']/container[@class='SHELLDLL_DefView']/list[@controlid='1']"
+			searchtimeout="30000ms">
+				/desktop[@processname='explorer']/?/?/list[@controlid='1']
+			</item>
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACBElEQVQ4T4WSUWgScRzHHfQcLPZcL0EQFNtTQU9FRUHSXhaTRbBA
+ixBRiIhAMIz2JERgT0bI1ALZy6BCyY0RMtuZeqPi0hlUE0JcyZXV7S6/u9/vdnezC/rDB/7c///5
+8L//net/43TmG/6m2Wxie9kYC8I6Xjc7eLL0wbH50aqMWVHm+Y2ChiMz7xGPx+3IgduStZnmmUoX
+i1IX6GsOaA8FQqEQRFG0A/kNsNzXflhQ5Pi8yhy7Vbae/zPAstphRmd/WWJvE2jJMAL6GsnEg/17
+kcvl7EDtUwv9zS8MBWiY8pp+OlMst4C3F/dBvnsYubFhFItFcOCP8tGCAor+yiQTJL5aB8sZ0bhE
+kj0eD5LJ5Hbg95oFBUz5/p1plu+97FmnGLpShtvtRjgctk/Q2XgD7aeBGRjZPcSYIkHrFPB6vYN3
+UFit6os1hgJ03J3QJZrrFHB8hReiALW3wlBg+bMtmpBM/4gjsGfqGQq1ZWjfi8xOSf363ILl8aeM
+I0CU3y1ClRegdnWB0KXRm0sDHDpxFecnLiMWi6HRaNiBXWfnMHzusUM4euoSJqem4ff7EQwGEYlE
+kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
+j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
 	<variables>
+		<var
+		id="f2e6ba2f-cab0-402d-995f-edb030525bd6"
+		name="save">
+		</var>
 	</variables>
 </repository>

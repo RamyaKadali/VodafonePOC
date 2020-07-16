@@ -134,6 +134,54 @@
       <UserCode>true</UserCode>
       <id>5ed9eea0-12be-4bc0-932f-78db09039aa7</id>
     </Compile>
+    <Compile Include="AddSchedule_ExistingList_Save.cs">
+      <BoundTo>581fd843-b465-4456-ad0f-fe2d8c74032a</BoundTo>
+      <DependentUpon>AddSchedule_ExistingList_Save.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ea7c4ecf-cc87-4889-ad25-1144662e49e8</id>
+    </Compile>
+    <Compile Include="AddSchedule_ExistingList_Save.UserCode.cs">
+      <BoundTo>581fd843-b465-4456-ad0f-fe2d8c74032a</BoundTo>
+      <DependentUpon>AddSchedule_ExistingList_Save.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>509b80bd-e480-4731-9d12-27ae7bb74a85</id>
+    </Compile>
+    <Compile Include="AlarmScheduling.cs">
+      <BoundTo>c30c0f80-9142-4415-9bf6-699b38b2cfa4</BoundTo>
+      <DependentUpon>AlarmScheduling.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7bb7487c-8305-4265-96da-c54cc3ad87d6</id>
+    </Compile>
+    <Compile Include="AlarmScheduling.UserCode.cs">
+      <BoundTo>c30c0f80-9142-4415-9bf6-699b38b2cfa4</BoundTo>
+      <DependentUpon>AlarmScheduling.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2473bd0d-2494-4a49-b746-f44dbead5d44</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_Click.cs">
+      <BoundTo>05648f02-0d8d-41d5-86da-b095a02b3b72</BoundTo>
+      <DependentUpon>AlarmScheduling_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4b9285a9-1133-4de9-8e8a-618a8cc16b2d</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_Click.UserCode.cs">
+      <BoundTo>05648f02-0d8d-41d5-86da-b095a02b3b72</BoundTo>
+      <DependentUpon>AlarmScheduling_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>10dcb3d4-d282-4204-98e1-58bd6cdf59f2</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_ExceptionList.cs">
+      <BoundTo>7e9613ed-ac7c-4195-b384-19674db30fe2</BoundTo>
+      <DependentUpon>AlarmScheduling_ExceptionList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e36af271-e9d9-4213-935b-9f1932028514</id>
+    </Compile>
+    <Compile Include="AlarmScheduling_ExceptionList.UserCode.cs">
+      <BoundTo>7e9613ed-ac7c-4195-b384-19674db30fe2</BoundTo>
+      <DependentUpon>AlarmScheduling_ExceptionList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7d22ec0a-4658-4870-98a1-59431cb493bd</id>
+    </Compile>
     <Compile Include="AlarmScheduling_WeeklySchedule.cs">
       <BoundTo>29736ce1-7c18-416e-8d59-38715ff4507e</BoundTo>
       <DependentUpon>AlarmScheduling_WeeklySchedule.rxrec</DependentUpon>
@@ -149,6 +197,54 @@
     <Compile Include="AssemblyInfo.cs">
       <id>0169905d-84c7-423b-aab8-b31b092e6f42</id>
     </Compile>
+    <Compile Include="ChooseDefault_Click.cs">
+      <BoundTo>eca77c2c-eb52-4c89-9752-c9d691785481</BoundTo>
+      <DependentUpon>ChooseDefault_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>69ef576f-7eb5-429d-9352-06ad22b9db35</id>
+    </Compile>
+    <Compile Include="ChooseDefault_Click.UserCode.cs">
+      <BoundTo>eca77c2c-eb52-4c89-9752-c9d691785481</BoundTo>
+      <DependentUpon>ChooseDefault_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f64cde09-e6f8-4435-ad2c-88c1d59ae50a</id>
+    </Compile>
+    <Compile Include="ChooseExistingExceptionList_Click.cs">
+      <BoundTo>9c7e4fd0-879f-4c2f-a006-49ee9c482ebe</BoundTo>
+      <DependentUpon>ChooseExistingExceptionList_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f1fdc295-41ba-4005-a513-b02dd6b45541</id>
+    </Compile>
+    <Compile Include="ChooseExistingExceptionList_Click.UserCode.cs">
+      <BoundTo>9c7e4fd0-879f-4c2f-a006-49ee9c482ebe</BoundTo>
+      <DependentUpon>ChooseExistingExceptionList_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3a179e56-65f1-414e-b49a-1597bae63037</id>
+    </Compile>
+    <Compile Include="ChooseExistingList.cs">
+      <BoundTo>03a0ac05-46cb-4887-b88a-78aeee573f8d</BoundTo>
+      <DependentUpon>ChooseExistingList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>65c1d037-fd61-4a99-8a2a-0f80bab5641b</id>
+    </Compile>
+    <Compile Include="ChooseExistingList.UserCode.cs">
+      <BoundTo>03a0ac05-46cb-4887-b88a-78aeee573f8d</BoundTo>
+      <DependentUpon>ChooseExistingList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2a4de1bf-34d3-4fbc-9243-df838b66d46b</id>
+    </Compile>
+    <Compile Include="Click_Alarmschedule_ExceptionLists.cs">
+      <BoundTo>65a81083-0157-490f-9c15-dc09eff9d584</BoundTo>
+      <DependentUpon>Click_Alarmschedule_ExceptionLists.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fee1e9c5-64e2-4927-880b-60d05f80d2e6</id>
+    </Compile>
+    <Compile Include="Click_Alarmschedule_ExceptionLists.UserCode.cs">
+      <BoundTo>65a81083-0157-490f-9c15-dc09eff9d584</BoundTo>
+      <DependentUpon>Click_Alarmschedule_ExceptionLists.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>682d4dfb-8b62-4908-ac6a-79cb9926926e</id>
+    </Compile>
     <Compile Include="Default_Domain.cs">
       <BoundTo>2b12397b-4668-43fc-8eed-0b8fce2f5389</BoundTo>
       <DependentUpon>Default_Domain.rxrec</DependentUpon>
@@ -160,6 +256,18 @@
       <DependentUpon>Default_Domain.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8e4fcc24-bd4f-4ecf-bd66-dc8dd482add7</id>
+    </Compile>
+    <Compile Include="Delay_Add.cs">
+      <BoundTo>0676ab9c-2dff-4149-a842-66caebb78c8a</BoundTo>
+      <DependentUpon>Delay_Add.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a4f5eca7-e65e-4b4b-ad78-6abdbea36472</id>
+    </Compile>
+    <Compile Include="Delay_Add.UserCode.cs">
+      <BoundTo>0676ab9c-2dff-4149-a842-66caebb78c8a</BoundTo>
+      <DependentUpon>Delay_Add.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>26490c21-ea68-4c53-94cb-3d42a58f2bca</id>
     </Compile>
     <Compile Include="DeleteSchedule.cs">
       <BoundTo>94d7942f-959a-441a-9fd7-6adcf10694d8</BoundTo>
@@ -184,6 +292,54 @@
       <DependentUpon>EncoderSettings.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>124ed4f9-3257-47ac-bea4-01d580f6885e</id>
+    </Compile>
+    <Compile Include="ExceptionListInfo_Click.cs">
+      <BoundTo>c8064fda-3e1c-4161-b9af-64a25f6a8efb</BoundTo>
+      <DependentUpon>ExceptionListInfo_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4724098e-ef61-4b6b-acb2-4a75adb88085</id>
+    </Compile>
+    <Compile Include="ExceptionListInfo_Click.UserCode.cs">
+      <BoundTo>c8064fda-3e1c-4161-b9af-64a25f6a8efb</BoundTo>
+      <DependentUpon>ExceptionListInfo_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ce367201-fd5e-4dc9-955a-82f84f36b6a1</id>
+    </Compile>
+    <Compile Include="ExceptionLists_Click.cs">
+      <BoundTo>2c02de32-4bac-4653-8415-aa0736acddee</BoundTo>
+      <DependentUpon>ExceptionLists_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6c00dffa-ac7e-496e-ac38-8ef23d6f7153</id>
+    </Compile>
+    <Compile Include="ExceptionLists_Click.UserCode.cs">
+      <BoundTo>2c02de32-4bac-4653-8415-aa0736acddee</BoundTo>
+      <DependentUpon>ExceptionLists_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99bf2f0d-f36a-4806-b1e5-7fe2c2e56c93</id>
+    </Compile>
+    <Compile Include="ExceptionList_Click.cs">
+      <BoundTo>10e7d516-8794-44ea-ba52-f0d3108cdbba</BoundTo>
+      <DependentUpon>ExceptionList_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>452d84da-ad19-4c1a-b9d1-4a0def165f63</id>
+    </Compile>
+    <Compile Include="ExceptionList_Click.UserCode.cs">
+      <BoundTo>10e7d516-8794-44ea-ba52-f0d3108cdbba</BoundTo>
+      <DependentUpon>ExceptionList_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>216ca061-65cf-4fc6-bdae-5d67786abaa6</id>
+    </Compile>
+    <Compile Include="ExistingList_Save.cs">
+      <BoundTo>8512f9ac-cb9b-4a33-a9d9-6ae51c83056f</BoundTo>
+      <DependentUpon>ExistingList_Save.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9aaa14c-9963-46c2-b5f8-ae2fc87cef3a</id>
+    </Compile>
+    <Compile Include="ExistingList_Save.UserCode.cs">
+      <BoundTo>8512f9ac-cb9b-4a33-a9d9-6ae51c83056f</BoundTo>
+      <DependentUpon>ExistingList_Save.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eda7964c-c331-409d-a3f4-8d8e48649de2</id>
     </Compile>
     <Compile Include="ExitAUT.cs">
       <BoundTo>1438283c-6382-429b-9939-e7ecb8cf0254</BoundTo>
@@ -314,12 +470,48 @@
       <RepositoryCode>true</RepositoryCode>
       <id>557fea1e-d669-408b-ae43-b44c8cd2a3fd</id>
     </Compile>
+    <Compile Include="Weeklyschedule_click.cs">
+      <BoundTo>ab22363b-6904-4cfb-9879-b5e914a73de6</BoundTo>
+      <DependentUpon>Weeklyschedule_click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c3a37b9a-8a12-477f-9264-f57b109d0bab</id>
+    </Compile>
+    <Compile Include="Weeklyschedule_click.UserCode.cs">
+      <BoundTo>ab22363b-6904-4cfb-9879-b5e914a73de6</BoundTo>
+      <DependentUpon>Weeklyschedule_click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4664e653-0e0f-40a7-a9d2-80869872493d</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Vodafone_AD.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>0dcafcef-bffe-4494-93b7-3f6632e51d9e</id>
+    </Content>
     <None Include="AddScheduleSave.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>0e9ed6ff-a8f9-4f3b-a751-a27a7c1cd134</id>
       <recordtableid>429990a3-1458-4dfd-990c-16900f0aa5c1</recordtableid>
+    </None>
+    <None Include="AddSchedule_ExistingList_Save.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>581fd843-b465-4456-ad0f-fe2d8c74032a</id>
+      <recordtableid>8e14c79c-ceaa-4c69-a58b-2a7c0ab39361</recordtableid>
+    </None>
+    <None Include="AlarmScheduling.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>c30c0f80-9142-4415-9bf6-699b38b2cfa4</id>
+      <recordtableid>742cb452-efb4-46e1-92e5-5b399a976e29</recordtableid>
+    </None>
+    <None Include="AlarmScheduling_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>05648f02-0d8d-41d5-86da-b095a02b3b72</id>
+      <recordtableid>8abb993d-53c5-4360-89e7-2f43dd005032</recordtableid>
+    </None>
+    <None Include="AlarmScheduling_ExceptionList.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>7e9613ed-ac7c-4195-b384-19674db30fe2</id>
+      <recordtableid>024475df-5295-457e-9e7b-b047dc07ae0f</recordtableid>
     </None>
     <None Include="AlarmScheduling_WeeklySchedule.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
@@ -329,10 +521,35 @@
     <None Include="app.config">
       <id>15daee03-3a2e-49b2-8815-5fd149b6453f</id>
     </None>
+    <None Include="ChooseDefault_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>eca77c2c-eb52-4c89-9752-c9d691785481</id>
+      <recordtableid>42a32ca3-36d1-4e74-98a0-f8c80f9019b1</recordtableid>
+    </None>
+    <None Include="ChooseExistingExceptionList_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>9c7e4fd0-879f-4c2f-a006-49ee9c482ebe</id>
+      <recordtableid>dec68afd-c4a2-4264-800d-0b40ef37034e</recordtableid>
+    </None>
+    <None Include="ChooseExistingList.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>03a0ac05-46cb-4887-b88a-78aeee573f8d</id>
+      <recordtableid>b92a6d08-83c6-429f-9929-332725d51f8f</recordtableid>
+    </None>
+    <None Include="Click_Alarmschedule_ExceptionLists.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>65a81083-0157-490f-9c15-dc09eff9d584</id>
+      <recordtableid>e04c81bb-985d-4643-9804-85aad92125fc</recordtableid>
+    </None>
     <None Include="Default_Domain.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>2b12397b-4668-43fc-8eed-0b8fce2f5389</id>
       <recordtableid>3633e997-479e-4ff4-a3c3-ec41c3b6edd4</recordtableid>
+    </None>
+    <None Include="Delay_Add.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>0676ab9c-2dff-4149-a842-66caebb78c8a</id>
+      <recordtableid>7d36cf0c-0b2e-4c50-b9bc-e70db6893143</recordtableid>
     </None>
     <None Include="DeleteSchedule.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
@@ -343,6 +560,26 @@
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</id>
       <recordtableid>4cf28761-c328-47f7-897b-794a5acd810b</recordtableid>
+    </None>
+    <None Include="ExceptionListInfo_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>c8064fda-3e1c-4161-b9af-64a25f6a8efb</id>
+      <recordtableid>72de6e35-99aa-4591-8484-7dfc00de16a7</recordtableid>
+    </None>
+    <None Include="ExceptionLists_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>2c02de32-4bac-4653-8415-aa0736acddee</id>
+      <recordtableid>5c519c8b-cec3-4b63-bfb9-cb512b224c39</recordtableid>
+    </None>
+    <None Include="ExceptionList_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>10e7d516-8794-44ea-ba52-f0d3108cdbba</id>
+      <recordtableid>38b62c9c-4c1c-4403-80ba-c9bdcba60a28</recordtableid>
+    </None>
+    <None Include="ExistingList_Save.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>8512f9ac-cb9b-4a33-a9d9-6ae51c83056f</id>
+      <recordtableid>adbf08ad-971b-4397-b137-f45bd0331393</recordtableid>
     </None>
     <None Include="ExitAUT.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
@@ -408,6 +645,11 @@
       <id>5116e92f-d46a-474c-bbdd-b7806a265374</id>
       <repoid>7948b87b-6c5a-4673-adf7-db614a8ed059</repoid>
       <reporootid>146bcdc9-cac8-4e11-8b44-873bb922bd05</reporootid>
+    </None>
+    <None Include="Weeklyschedule_click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>ab22363b-6904-4cfb-9879-b5e914a73de6</id>
+      <recordtableid>4ee62b3a-cab3-49e1-b43c-2171b92bf03c</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>

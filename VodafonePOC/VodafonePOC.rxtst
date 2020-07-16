@@ -64,7 +64,7 @@
 			type="Recording">
 			</testmodule>
 			<testsuite
-			ReportTime="WallClock"
+			ReportTime="RelativeToTestModuleStartTime"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
 			VideoBitrate="2000"
