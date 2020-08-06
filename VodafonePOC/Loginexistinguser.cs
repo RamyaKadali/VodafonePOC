@@ -24,29 +24,29 @@ namespace VodafonePOC
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The ExitAUT recording.
+    ///The Loginexistinguser recording.
     /// </summary>
-    [TestModule("24357e9d-5b82-46d5-b2de-6760c07f02d8", ModuleType.Recording, 1)]
-    public partial class ExitAUT : ITestModule
+    [TestModule("b000662b-7da6-4bc6-ba14-bcff1268a4e4", ModuleType.Recording, 1)]
+    public partial class Loginexistinguser : ITestModule
     {
         /// <summary>
         /// Holds an instance of the VodafonePOCRepository repository.
         /// </summary>
         public static VodafonePOCRepository repo = VodafonePOCRepository.Instance;
 
-        static ExitAUT instance = new ExitAUT();
+        static Loginexistinguser instance = new Loginexistinguser();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public ExitAUT()
+        public Loginexistinguser()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static ExitAUT Instance
+        public static Loginexistinguser Instance
         {
             get { return instance; }
         }
@@ -79,12 +79,24 @@ namespace VodafonePOC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Account' at Center.", repo.ApplicationUnderTest.AccountInfo, new RecordItemIndex(0));
-            repo.ApplicationUnderTest.Account.Click();
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Username' at Center.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(0));
+            repo.ApplicationUnderTest.Username.Click();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Logout' at 121;8.", repo.ApplicationUnderTest.LogoutInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Logout.Click("121;8");
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Name to 'Ramya' on item 'ApplicationUnderTest.Username'.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Username.Element.SetAttributeValue("Name", "Ramya");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Password' at Center.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Password.Click();
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Name to 'password' on item 'ApplicationUnderTest.Password'.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Password.Element.SetAttributeValue("Name", "password");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at Center.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.Submit.Click();
             Delay.Milliseconds(0);
             
         }
