@@ -83,16 +83,16 @@ namespace VodafonePOC
             repo.ApplicationUnderTest.Username.Click("28;17");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Kadali' with focus on 'ApplicationUnderTest.Username'.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(1));
-            repo.ApplicationUnderTest.Username.PressKeys("Kadali");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Ramya' with focus on 'ApplicationUnderTest.Username'.", repo.ApplicationUnderTest.UsernameInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Username.PressKeys("Ramya");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Password' at 36;17.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(2));
             repo.ApplicationUnderTest.Password.Click("36;17");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ven58kRs$' with focus on 'ApplicationUnderTest.Password'.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(3));
-            repo.ApplicationUnderTest.Password.PressKeys("ven58kRs$");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'password' with focus on 'ApplicationUnderTest.Password'.", repo.ApplicationUnderTest.PasswordInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Password.PressKeys("password");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Submit' at 130;6.", repo.ApplicationUnderTest.SubmitInfo, new RecordItemIndex(4));

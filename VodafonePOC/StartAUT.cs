@@ -79,8 +79,8 @@ namespace VodafonePOC
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://ext-735-opco.caas.edgevis.io:9443/#/login' with browser 'edge' in maximized mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://ext-735-opco.caas.edgevis.io:9443/#/login", "edge", "", false, true, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://ext-735-opco.caas.edgevis.io:9443/#/login' with browser 'Edge' in maximized mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://ext-735-opco.caas.edgevis.io:9443/#/login", "Edge", "", false, true, false, false, false, true);
             Delay.Milliseconds(0);
             
         }

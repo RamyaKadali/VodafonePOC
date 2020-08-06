@@ -8,5 +8,10 @@
     "Enabled": "True",
     "TestSuite": "Vodafone_AD",
     "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Login_existinguser",
+    "RunConfig": "TestRun"
   }
 ]

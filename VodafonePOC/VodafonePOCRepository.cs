@@ -182,7 +182,6 @@ namespace VodafonePOC
             RepoItemInfo _accountInfo;
             RepoItemInfo _usernameInfo;
             RepoItemInfo _logoutInfo;
-            RepoItemInfo _account1Info;
             RepoItemInfo _testInfo;
             RepoItemInfo _findoutmoreaboutalarmschedulingInfo;
             RepoItemInfo _thursdayworkinghoursInfo;
@@ -228,7 +227,6 @@ namespace VodafonePOC
                 _accountInfo = new RepoItemInfo(this, "Account", ".//div[#'userPanel']/span[3]", 30000, null, "c09551df-3b95-40e6-aa88-dd8bae88aec2");
                 _usernameInfo = new RepoItemInfo(this, "Username", ".//input[#'username']", 30000, null, "b4031387-8833-4efa-ade4-97b0c7f4b3ad");
                 _logoutInfo = new RepoItemInfo(this, "Logout", ".//div[#'userPanel']//a[@innertext='Logout']", 30000, null, "e46edd80-b215-4542-bb5a-fa434cc8c32f");
-                _account1Info = new RepoItemInfo(this, "Account1", ".//div[#'userPanel']/span[2]", 30000, null, "a2b9049e-c483-401a-ba9f-76a84767f0d6");
                 _testInfo = new RepoItemInfo(this, "Test", ".//section[#'float']//article/ul/li[14]//span[@innertext='test ']", 30000, null, "a1a2654c-6152-49ff-9e74-ce7b54aebf8b");
                 _findoutmoreaboutalarmschedulingInfo = new RepoItemInfo(this, "FindOutMoreAboutAlarmScheduling", ".//section[#'float']//article/p[@innertext>'This section allows you to']/a[@innertext>'Find out more about alarm']", 30000, null, "bc16c320-b69e-4103-85e9-5476fb896510");
                 _thursdayworkinghoursInfo = new RepoItemInfo(this, "ThursdayWorkingHours", ".//section[#'float']//article/ul/li[1]//span[@innertext='Thursday Working hours ']", 30000, null, "bf3cc242-118b-4782-a062-cbcf0f0d2894");
@@ -520,30 +518,6 @@ namespace VodafonePOC
                 get
                 {
                     return _logoutInfo;
-                }
-            }
-
-            /// <summary>
-            /// The Account1 item.
-            /// </summary>
-            [RepositoryItem("a2b9049e-c483-401a-ba9f-76a84767f0d6")]
-            public virtual Ranorex.SpanTag Account1
-            {
-                get
-                {
-                    return _account1Info.CreateAdapter<Ranorex.SpanTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The Account1 item info.
-            /// </summary>
-            [RepositoryItemInfo("a2b9049e-c483-401a-ba9f-76a84767f0d6")]
-            public virtual RepoItemInfo Account1Info
-            {
-                get
-                {
-                    return _account1Info;
                 }
             }
 

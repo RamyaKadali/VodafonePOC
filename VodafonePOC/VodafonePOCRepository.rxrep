@@ -175,16 +175,6 @@ name="VodafonePOCRepository">
 			<item
 			addcaps="unknown,webelement,spantag"
 			capname="spantag"
-			id="a2b9049e-c483-401a-ba9f-76a84767f0d6"
-			name="Account1"
-			refimgid="0652f9c2-cc65-4eab-a53b-e2a74d271dcb"
-			refpath="/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]"
-			searchtimeout="30000ms">
-				/dom[@domain='ext-735-opco.caas.edgevis.io:9443']//div[#'userPanel']/span[2]
-			</item>
-			<item
-			addcaps="unknown,webelement,spantag"
-			capname="spantag"
 			id="a1a2654c-6152-49ff-9e74-ce7b54aebf8b"
 			name="Test"
 			refimgid="e3d44469-77ea-4aaf-bf7d-b448813892a3"

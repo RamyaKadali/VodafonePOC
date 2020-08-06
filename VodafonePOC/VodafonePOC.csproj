@@ -365,6 +365,18 @@
       <UserCode>true</UserCode>
       <id>556a94d7-5aa2-4aa5-9e8f-04091e693edf</id>
     </Compile>
+    <Compile Include="Loginexistinguser.cs">
+      <BoundTo>23cd479d-d186-4b6b-b781-dbb6fac9b612</BoundTo>
+      <DependentUpon>Loginexistinguser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>88a0c856-4bb1-48d9-9e9f-c2494ad2df14</id>
+    </Compile>
+    <Compile Include="Loginexistinguser.UserCode.cs">
+      <BoundTo>23cd479d-d186-4b6b-b781-dbb6fac9b612</BoundTo>
+      <DependentUpon>Loginexistinguser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0cb5a594-c998-4f92-ae02-f2cf3b183e6d</id>
+    </Compile>
     <Compile Include="LoginModule.cs">
       <BoundTo>498421fc-8d98-4a89-931b-6219b005a95d</BoundTo>
       <DependentUpon>LoginModule.rxrec</DependentUpon>
@@ -484,6 +496,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Login_existinguser.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f06484b4-8f92-408f-afd6-7b3fcd2d9d7b</id>
+    </Content>
     <Content Include="Vodafone_AD.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>0dcafcef-bffe-4494-93b7-3f6632e51d9e</id>
@@ -590,6 +606,11 @@
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>412f75df-70e2-4178-8e70-3cbf1a2a6f95</id>
       <recordtableid>6b3005a8-443c-493c-a1c5-59d3fa38111f</recordtableid>
+    </None>
+    <None Include="Loginexistinguser.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>23cd479d-d186-4b6b-b781-dbb6fac9b612</id>
+      <recordtableid>b000662b-7da6-4bc6-ba14-bcff1268a4e4</recordtableid>
     </None>
     <None Include="LoginModule.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
