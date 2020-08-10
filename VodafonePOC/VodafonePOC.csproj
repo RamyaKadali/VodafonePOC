@@ -281,6 +281,30 @@
       <UserCode>true</UserCode>
       <id>7018f3f8-4b50-4e2d-97bc-29ac32c2cc21</id>
     </Compile>
+    <Compile Include="Domain_Click.cs">
+      <BoundTo>534580d1-320d-4b34-98fd-4a276eef49e7</BoundTo>
+      <DependentUpon>Domain_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f4da158a-8619-4b00-809b-3709cc790934</id>
+    </Compile>
+    <Compile Include="Domain_Click.UserCode.cs">
+      <BoundTo>534580d1-320d-4b34-98fd-4a276eef49e7</BoundTo>
+      <DependentUpon>Domain_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5db5a9ca-5208-4dc0-9f1a-6527f96bb919</id>
+    </Compile>
+    <Compile Include="Domain_Enter.cs">
+      <BoundTo>ef838a4a-5f65-40ec-a0d6-96a452dfacc7</BoundTo>
+      <DependentUpon>Domain_Enter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7a8b9a98-2c32-433a-b28b-fb118a394095</id>
+    </Compile>
+    <Compile Include="Domain_Enter.UserCode.cs">
+      <BoundTo>ef838a4a-5f65-40ec-a0d6-96a452dfacc7</BoundTo>
+      <DependentUpon>Domain_Enter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>051b25da-005a-474b-b663-1fb412caf019</id>
+    </Compile>
     <Compile Include="EncoderSettings.cs">
       <BoundTo>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</BoundTo>
       <DependentUpon>EncoderSettings.rxrec</DependentUpon>
@@ -412,6 +436,18 @@
       <DependentUpon>Save.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>45a9fa7f-dc89-4176-8c7a-09a2628d808f</id>
+    </Compile>
+    <Compile Include="Save_Click.cs">
+      <BoundTo>f220048b-4bec-42e6-b3bb-789744da27fe</BoundTo>
+      <DependentUpon>Save_Click.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>05fbd04d-eb28-4b3b-a59c-632292988453</id>
+    </Compile>
+    <Compile Include="Save_Click.UserCode.cs">
+      <BoundTo>f220048b-4bec-42e6-b3bb-789744da27fe</BoundTo>
+      <DependentUpon>Save_Click.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>61cc567e-8091-4d8f-bbe1-0c68383b9370</id>
     </Compile>
     <Compile Include="SelectWeeklySchedule_Dropdown.cs">
       <BoundTo>cc559a23-a7e0-45b7-b3d2-d510870a4a9d</BoundTo>
@@ -572,6 +608,16 @@
       <id>94d7942f-959a-441a-9fd7-6adcf10694d8</id>
       <recordtableid>4773f7e6-381e-429c-95d7-705e09560a0c</recordtableid>
     </None>
+    <None Include="Domain_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>534580d1-320d-4b34-98fd-4a276eef49e7</id>
+      <recordtableid>55d0d895-b534-4e16-8c9d-6aa4cddc36e9</recordtableid>
+    </None>
+    <None Include="Domain_Enter.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>ef838a4a-5f65-40ec-a0d6-96a452dfacc7</id>
+      <recordtableid>1d8787a5-1c44-4cd2-b4fe-39b132cba2ba</recordtableid>
+    </None>
     <None Include="EncoderSettings.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>70f3abe4-3ee6-4497-84f9-be8a3e2dcf25</id>
@@ -626,6 +672,11 @@
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
       <id>b5023f07-8637-4ed4-8e92-c9a41814fd6d</id>
       <recordtableid>2eea1a7a-ac1a-44a0-a8f2-f537cf997619</recordtableid>
+    </None>
+    <None Include="Save_Click.rxrec">
+      <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
+      <id>f220048b-4bec-42e6-b3bb-789744da27fe</id>
+      <recordtableid>720b46ca-14ef-475b-bb3c-9f5dcdd1acfd</recordtableid>
     </None>
     <None Include="SelectWeeklySchedule_Dropdown.rxrec">
       <BoundTo>5116e92f-d46a-474c-bbdd-b7806a265374</BoundTo>
