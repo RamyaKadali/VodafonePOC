@@ -14,6 +14,12 @@
 			ref="85069e36-4973-4324-86db-170665b29ab9"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="0af8520f-f536-4957-8564-ee80b00d9988"
+			name="AlarmScheduling"
+			ref="742cb452-efb4-46e1-92e5-5b399a976e29"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -33,6 +39,12 @@
 			reporttemplatefolder=""
 			reportwriteinterval="30000ms">
 			</testsuite>
+			<testmodule
+			id="1232490a-55d9-4cef-8e58-6dd1046eed98"
+			name="Domain_Enter"
+			ref="1d8787a5-1c44-4cd2-b4fe-39b132cba2ba"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="12fe5cef-f5fc-4fc2-a42b-48d9061a6e99"
 			name="ExceptionListInfo_Click"
@@ -61,6 +73,12 @@
 			id="1e7589d0-46c5-4738-9340-33fd6214f88d"
 			name="ExceptionLists_Click"
 			ref="5c519c8b-cec3-4b63-bfb9-cb512b224c39"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="20054f2e-a76e-48bb-949d-6877d99b7813"
+			name="Domain_Enter"
+			ref="1d8787a5-1c44-4cd2-b4fe-39b132cba2ba"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -105,12 +123,6 @@
 			ref="24357e9d-5b82-46d5-b2de-6760c07f02d8"
 			type="Recording">
 			</testmodule>
-			<testmodule
-			id="536ff682-ef3c-40a6-bcbc-3633cebc9591"
-			name="AlarmScheduling_WeeklySchedule"
-			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="599d53ed-f452-4a23-952a-43378ac68fbf"
 			name="Vodafone_AD"
@@ -120,6 +132,18 @@
 			id="5f3205f5-2872-4235-80af-773ecefceedf"
 			name="teardown">
 			</teardown>
+			<testmodule
+			id="60e17dd2-cd7b-4a51-a04e-a67cc5e6d4e6"
+			name="AlarmScheduling_WeeklySchedule"
+			ref="14b96420-2635-4a2b-86b3-bef287bef56f"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="6296f2d2-333f-4cbe-86ee-c528f4e7d6d4"
+			name="Domain_Enter"
+			ref="1d8787a5-1c44-4cd2-b4fe-39b132cba2ba"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="64c5bbed-fd0b-4f29-93f7-545c0f8140cb"
 			name="EncoderSettings"
@@ -156,6 +180,18 @@
 			id="7236b28b-195d-42ee-ae62-f71946ac2852"
 			name="StartAUT"
 			ref="982b9bea-47ac-42c9-b71e-0987f9da64b1"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="73dc4410-3710-45f6-ad19-e626ddf36e4d"
+			name="EncoderSettings"
+			ref="4cf28761-c328-47f7-897b-794a5acd810b"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="80813c5b-2305-4181-b051-9ca8e8a41d48"
+			name="Domain_Enter"
+			ref="1d8787a5-1c44-4cd2-b4fe-39b132cba2ba"
 			type="Recording">
 			</testmodule>
 			<setup
@@ -202,6 +238,12 @@
 			id="d1f6769b-6ea8-4ddf-8a4f-74a7b319382d"
 			name="LoginModule"
 			ref="85069e36-4973-4324-86db-170665b29ab9"
+			type="Recording">
+			</testmodule>
+			<testmodule
+			id="d2b27108-2659-4ed4-b9bf-8ec84f57b657"
+			name="Domain_Enter"
+			ref="1d8787a5-1c44-4cd2-b4fe-39b132cba2ba"
 			type="Recording">
 			</testmodule>
 			<testmodule
@@ -265,6 +307,14 @@
 						id="67efbfb7-4bb8-44eb-8d7a-5d1cac487eb6"
 						name="LoginModule">
 						</testmodule>
+						<testmodule
+						id="d2b27108-2659-4ed4-b9bf-8ec84f57b657"
+						name="Domain_Enter">
+						</testmodule>
+						<testmodule
+						id="73dc4410-3710-45f6-ad19-e626ddf36e4d"
+						name="EncoderSettings">
+						</testmodule>
 						<teardown
 						id="b34ebff2-b287-497d-a1d4-39d49e1189b9"
 						name="teardown">
@@ -290,11 +340,19 @@
 						name="LoginModule">
 						</testmodule>
 						<testmodule
+						id="1232490a-55d9-4cef-8e58-6dd1046eed98"
+						name="Domain_Enter">
+						</testmodule>
+						<testmodule
 						id="3411ce74-ce3f-47fc-adab-fddfe3c07e3a"
 						name="EncoderSettings">
 						</testmodule>
 						<testmodule
-						id="536ff682-ef3c-40a6-bcbc-3633cebc9591"
+						id="0af8520f-f536-4957-8564-ee80b00d9988"
+						name="AlarmScheduling">
+						</testmodule>
+						<testmodule
+						id="60e17dd2-cd7b-4a51-a04e-a67cc5e6d4e6"
 						name="AlarmScheduling_WeeklySchedule">
 						</testmodule>
 						<teardown
@@ -320,6 +378,10 @@
 						<testmodule
 						id="09af7085-bb5a-4711-872d-d92d5b662b9d"
 						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="6296f2d2-333f-4cbe-86ee-c528f4e7d6d4"
+						name="Domain_Enter">
 						</testmodule>
 						<testmodule
 						id="650bebfd-2d9a-4a0e-a7bc-364f6f242387"
@@ -352,6 +414,10 @@
 						<testmodule
 						id="1e17dcf7-762d-4abc-836f-1c65af36a1d0"
 						name="LoginModule">
+						</testmodule>
+						<testmodule
+						id="80813c5b-2305-4181-b051-9ca8e8a41d48"
+						name="Domain_Enter">
 						</testmodule>
 						<testmodule
 						id="e5ed2bf0-922c-46d9-873f-fc42b3fba722"
@@ -394,6 +460,10 @@
 						name="LoginModule">
 						</testmodule>
 						<testmodule
+						id="20054f2e-a76e-48bb-949d-6877d99b7813"
+						name="Domain_Enter">
+						</testmodule>
+						<testmodule
 						id="64c5bbed-fd0b-4f29-93f7-545c0f8140cb"
 						name="EncoderSettings">
 						</testmodule>
@@ -425,10 +495,16 @@
 		<testconfiguration
 		name="TestRun1">
 			<testcontainer
-			id="4b05bafe-442a-4096-bc3e-daab47e6be8f">
+			id="599d53ed-f452-4a23-952a-43378ac68fbf">
 			</testcontainer>
 			<testcontainer
-			id="599d53ed-f452-4a23-952a-43378ac68fbf">
+			id="a1ad92fd-62c2-4071-b996-64ba364f2697">
+			</testcontainer>
+			<testcontainer
+			id="ce87fdc0-de3d-44d1-a1d8-357b1c1adbe8">
+			</testcontainer>
+			<testcontainer
+			id="d3cb0565-6e40-47be-810a-fb19fe9eb5b7">
 			</testcontainer>
 		</testconfiguration>
 		<testconfiguration
